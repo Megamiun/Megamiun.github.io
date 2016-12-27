@@ -4,6 +4,10 @@
 
 @import "constants";
 
+* {
+    max-width: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: $font-size;
