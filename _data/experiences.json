@@ -1,0 +1,43 @@
+[
+    {
+        "name": "RiskOffice Consultoria Financeira",
+        "position":
+        [
+            {
+                "name": "Analista de Sistemas Estagiário",
+                "started": {
+                    "month": 6,
+                    "year": 2014
+                },
+                "ended": {
+                    "month": 6,
+                    "year": 2016
+                },
+            },
+            {
+                "name": "Analista de Sistemas Pleno",
+                "started": {
+                    "month": 6,
+                    "year": 2016
+                },
+                "ended": {
+                    "month": 10,
+                    "year": 2016
+                },
+            }
+        ]
+    },
+    {
+        "name": "Aditus Consultoria Financeira",
+        "position":
+        [
+            {
+                "name": "Analista de Sistemas Pleno",
+                "started": {
+                    "month": 10,
+                    "year": 2016
+                },
+            }
+        ]
+    }
+]
