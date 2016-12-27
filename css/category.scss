@@ -1,0 +1,50 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "constants";
+
+.category {
+    margin: 25px;
+
+    .category-title {
+        border-bottom: 1px $highlight-color solid;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .item-title {
+        font-weight: bold;
+    }
+
+    p:not(.item-title):not(.category-title) {
+        font-size: 12px;
+    }
+
+    .timebox {
+        display: flex;
+
+        .timeline {
+            width: 50px;
+            text-align: right;
+            padding-right: 10px;
+            border-right: 1px black solid;
+        }
+
+        .info {
+            margin: 0px 5px;
+        }
+    }
+
+    .timebox:first-of-type .timeline {
+        margin-top: $p-vertical-margin;
+
+        p {
+            margin-top: 0;
+        }
+    }
+
+    .timebox:last-of-type .timeline {
+        margin-bottom: $p-vertical-margin;
+    }
+}
