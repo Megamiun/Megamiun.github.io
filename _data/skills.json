@@ -4,12 +4,20 @@
         "skills":
         [
             {
-                "name": "C",
-                "level": 2
-            },
-            {
                 "name": "Java",
                 "level": 4
+            },
+            {
+                "name": "C",
+                "level": 3
+            },
+            {
+                "name": "Javascript",
+                "level": 3
+            },
+            {
+                "name": "HTML/CSS",
+                "level": 2
             },
             {
                 "name": "Python",
@@ -18,14 +26,6 @@
             {
                 "name": "Kotlin",
                 "level": 1
-            },
-            {
-                "name": "HTML/CSS",
-                "level": 2
-            },
-            {
-                "name": "Javascript",
-                "level": 2
             }
         ]
     },
@@ -35,19 +35,19 @@
         [
             {
                 "name": "JBoss/WildFly",
-                "level": 2
+                "level": 3
             },
             {
                 "name": "Terminal",
-                "level": 2
-            },
-            {
-                "name": "Jekyll",
-                "level": 2
+                "level": 3
             },
             {
                 "name": "Git",
                 "level": 3
+            },
+            {
+                "name": "Jekyll",
+                "level": 2
             },
             {
                 "name": "SVN",
@@ -56,16 +56,16 @@
         ]
     },
     {
-        "name": "Linguagens",
+        "name": "Idiomas",
         "skills":
         [
             {
                 "name": "Português",
-                "level": 4
+                "level": 5
             },
             {
                 "name": "Inglês",
-                "level": 3
+                "level": 4
             },
             {
                 "name": "Espanhol",
