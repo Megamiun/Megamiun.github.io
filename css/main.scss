@@ -28,16 +28,17 @@ p {
     border-radius: 50%;
 }
 
-.inline {
-    display: inline;
-}
-
-.p-wrapper {
+.block-wrapper {
     margin: $p-vertical-margin 0;
+
+    * {
+        display: inline;
+    }
 }
 
 @media only screen and (min-width: $small-screen-breakpoint) {
     body {
+        min-height: 100vh;
         display: flex;
     }
 

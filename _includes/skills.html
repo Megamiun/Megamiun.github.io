@@ -1,13 +1,12 @@
-<p class="category-title" >Habilidades</p>
+{% for category in site.data.skills %}
+    <section class="category" >
+        <p class="category-title" >{{ category.name }}</p>
 
-{% for skill in site.data.skills %}
-    <p class="item-title" >
-        {{ skill.name }}
-        {% if skill.items == nil %}
-            - {{ skill.level }}
-        {% endif %}
-    </p>
-    {% for item in skill.items %}
-        {{ item.name }} - {{ item.level }} <br/>
-    {% endfor %}
+        {% for skill in category.skills %}
+            <div class="block-wrapper" >
+                <p class="item-title" >{{ skill.name }}</p>
+                - <p>{{ skill.level }}<p>
+            </div>
+        {% endfor %}
+    </section>
 {% endfor %}
