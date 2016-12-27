@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Inglês",
+        "level": 3
+    },
+    {
+        "name": "HTML",
+        "level": 2
+    },
+    {
+        "name": "Linguagens de Programação",
+        "items":
+        [
+            {
+                "name": "C",
+                "level": 2
+            },
+            {
+                "name": "Java",
+                "level": 3
+            },
+            {
+                "name": "Python",
+                "level": 1
+            },
+            {
+                "name": "Kotlin",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "name": "Ferramentas",
+        "items":
+        [
+            {
+                "name": "JBoss/WildFly",
+                "level": 2
+            },
+            {
+                "name": "Terminal",
+                "level": 2
+            },
+            {
+                "name": "Jekyll",
+                "level": 1
+            },
+            {
+                "name": "Git",
+                "level": 2
+            },
+            {
+                "name": "SVN",
+                "level": 1
+            }
+        ]
+    }
+]

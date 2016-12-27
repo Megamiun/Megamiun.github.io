@@ -1,0 +1,17 @@
+---
+layout: main
+---
+
+<section id="left-panel" >
+    <img id="avatar" class="circle" src="img/avatar.jpg" ></img>
+
+    <p>{{ site.description }}</p>
+
+    {% include category.html module="personal.html" %}
+    {% include category.html module="info.html" %}
+</section>
+<section id="right-panel" >
+    {% include category.html module="academics.html" %}
+    {% include category.html module="experiences.html" %}
+    {% include category.html module="skills.html" %}
+</section>

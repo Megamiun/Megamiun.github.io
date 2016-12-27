@@ -1,0 +1,13 @@
+<p class="category-title" >Habilidades</p>
+
+{% for skill in site.data.skills %}
+    <p class="item-title" >
+        {{ skill.name }}
+        {% if skill.items == nil %}
+            - {{ skill.level }}
+        {% endif %}
+    </p>
+    {% for item in skill.items %}
+        {{ item.name }} - {{ item.level }} <br/>
+    {% endfor %}
+{% endfor %}

@@ -1,0 +1,7 @@
+<p class="category-title" >Pessoal</p>
+
+{% for info in site.data.personal %}
+    <div class="p-wrapper" >
+        <p class="item-title inline" >{{ info[0] }}</p>: {{info[1]}}
+    </div>
+{% endfor %}
