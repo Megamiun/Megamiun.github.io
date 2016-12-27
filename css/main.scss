@@ -1,0 +1,83 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$highlight-color: #FFA500;
+$right-color: #E3E3E3;
+$left-color: black;
+
+$right-font-color: black;
+$left-font-color: white;
+$p-verrical-margin: 10px;
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin: 0;
+}
+
+p {
+    margin: $p-verrical-margin 0;
+}
+
+#left-panel {
+    background-color: $left-color;
+    color: $left-font-color;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#right-panel {
+    background-color: $right-color;
+    color: $right-font-color;
+    flex-basis: 0;
+    flex-grow: 4;
+}
+
+#avatar {
+    max-width: 10vw;
+    max-height: 10vw;
+    margin: 2vw 5vw;
+}
+
+.category {
+    margin: 30px;
+
+    .category-title {
+        border-bottom: 1px $highlight-color solid;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .item-title {
+        font-weight: bold;
+    }
+
+    .timebox {
+        display: flex;
+
+        .timeline {
+            width: 50px;
+            margin: $p-verrical-margin 0;
+            border-right: 1px black solid;
+        }
+
+        .info {
+            margin: 0px 5px;
+        }
+    }
+}
+
+.circle {
+    border: 2px $highlight-color solid;
+    border-radius: 50%;
+}
+
+.inline {
+    display: inline;
+}
+
+.p-wrapper {
+    margin: $p-verrical-margin 0;
+}

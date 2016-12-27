@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ETEC Martin Luther King",
+        "class": "Mecatrônica",
+        "level": "Técnico",
+        "started": 2010,
+        "ended": 2011
+    },
+    {
+        "name": "Universidade de São Paulo - USP",
+        "class": "Sistemas da Informação",
+        "level": "Bacharel",
+        "started": 2012,
+        "ended": 2016
+    }
+]
