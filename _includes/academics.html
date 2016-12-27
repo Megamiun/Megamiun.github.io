@@ -1,11 +1,13 @@
 <p class="category-title" >Acadêmico</p>
 
-<div class="timebox" >
-    <div class="timeline" ></div>
-    <div class="info" >
-        {% for place in site.data.academics %}
+{% for place in site.data.academics %}
+    <div class="timebox" >
+        <div class="timeline" >
+            <p>{{ place.started }}</p>
+        </div>
+        <div class="info" >
             <p class="item-title" >{{ place.name }}</p>
             <p>{{ place.level }} em {{ place.class }}</p>
-        {% endfor %}
+        </div>
     </div>
-</div>
+{% endfor %}

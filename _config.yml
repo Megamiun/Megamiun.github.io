@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 name: Gabryel Monteiro
 email: gabryelARM@gmail.com
-personal-description: Desenvolvedor iniciante com aspirações à Arquiteto de Software
-site-description: Curriculo de Gabryel Monteiro, desenvolvedor iniciante com aspirações à Arquiteto de Software
+personal-description: Desenvolvedor iniciante com aspirações à Arquiteto de Software.
+site-description: Curriculo de Gabryel Monteiro, desenvolvedor iniciante com aspirações à Arquiteto de Software.
 baseurl: ""
 url: "www.gabryel.com.br"
 github_username: Megamiun
@@ -26,3 +26,6 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+sass:
+    sass_dir: ./_sass

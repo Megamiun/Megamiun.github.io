@@ -1,14 +1,17 @@
 <p class="category-title" >Experiência</p>
 
-
-<div class="timebox" >
-    <div class="timeline" ></div>
-    <div class="info" >
-        {% for place in site.data.experiences %}
-            {% for pos in place.position %}
-                <p class="item-title" >{{ place.name }}</p>
+{% for place in site.data.experiences %}
+    {% for pos in place.position %}
+        <div class="timebox" >
+            <div class="timeline" >
+                <p>{{ pos.started.month }}/{{ pos.started.year }}</p>
+            </div>
+            <div class="info" >
+                {% if forloop.first %}
+                    <p class="item-title" >{{ place.name }}</p>
+                {% endif %}
                 <p>{{ pos.name }}</p>
-            {% endfor %}
-        {% endfor %}
-    </div>
-</div>
+            </div>
+        </div>
+    {% endfor %}
+{% endfor %}
