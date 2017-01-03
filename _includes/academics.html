@@ -3,7 +3,7 @@
 {% for place in site.data.academics %}
     <div class="timebox" >
         <div class="timeline" >
-            <p>{{ place.started }}</p>
+            {% include time-arrow.html year=place.started %}
         </div>
         <div class="info" >
             <p class="item-title" >{{ place.name }}</p>

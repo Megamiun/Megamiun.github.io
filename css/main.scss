@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: $font-size;
     margin: 0;
 }
@@ -27,8 +27,13 @@ p {
     margin: 0 auto;
 }
 
+#name {
+    font-weight: 300;
+    font-size: 25px;
+}
+
 .circle {
-    border: 2.5px $highlight-color solid;
+    border: 3px $highlight-color solid;
     border-radius: 50%;
 }
 
