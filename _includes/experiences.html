@@ -4,7 +4,7 @@
     {% for pos in place.position %}
         <div class="timebox" >
             <div class="timeline" >
-                <p>{{ pos.started.month }}/{{ pos.started.year }}</p>
+                {% include time-arrow.html year=pos.started.year month=pos.started.month %}
             </div>
             <div class="info" >
                 {% if forloop.first %}
