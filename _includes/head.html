@@ -1,14 +1,15 @@
 <head>
    <meta charset="UTF-8">
-   <title>{{ user.name }}</title>
+   <title>{{ site.name }}</title>
 
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="author" content="{{ user.name }}">
+   <meta name="author" content="{{ site.name }}">
    <meta property="og:type" content="website">
    <meta property="og:url" content="{{ site.url }}">
    <meta property="og:description" content="{{ site.site-description }}">
 
-   <link rel="stylesheet" href="/css/main.css">
+   <link rel="stylesheet" href="/css/main.css" media="only screen">
+   <link rel="stylesheet" href="/css/print.css" media="only print">
    <link rel="stylesheet" href="/css/category.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">

@@ -1,7 +1,28 @@
-{
-    "Idade": 22,
-    "Bairro": "São Miguel Paulista",
-    "Cidade": "São Paulo - SP",
-    "Telefone": "2581-8270",
-    "Celular": "95351-6189"
-}
+[
+    {
+        "name": "Idade",
+        "value": 22
+    },
+    {
+        "name": "Bairro",
+        "value": "São Miguel Paulista"
+    },
+    {
+        "name": "Cidade",
+        "value": "São Paulo - SP"
+    },
+    {
+        "name": "Celular",
+        "value": "(11) 95351-6189"
+    },
+    {
+        "name": "Telegram",
+        "value": "@Megamiun",
+        "url": "http://t.me/megamiun"
+    },
+    {
+        "name": "Github",
+        "value": "Megamiun",
+        "url": "https://github.com/Megamiun"
+    }
+]

@@ -18,8 +18,13 @@ body > section {
     padding: 20px 0;
 }
 
-p {
+p, a {
     margin: $p-vertical-margin 0;
+}
+
+a {
+    color: $left-font-color;
+    text-decoration: none;
 }
 
 #avatar {
@@ -29,7 +34,7 @@ p {
 
 #name {
     font-weight: 300;
-    font-size: 25px;
+    font-size: 1.8em;
 }
 
 .circle {
@@ -45,7 +50,11 @@ p {
     }
 }
 
-@media only screen and (min-width: $small-screen-breakpoint) {
+#personal-panel svg {
+    fill: $left-font-color;
+}
+
+@media screen and (min-width: $small-screen-breakpoint) {
     body {
         min-height: 100vh;
         display: flex;
@@ -73,7 +82,7 @@ p {
     }
 }
 
-@media only screen and (max-width: $small-screen-breakpoint) {
+@media screen and (max-width: $small-screen-breakpoint) {
     #personal-panel {
         background-color: $left-color;
         color: $left-font-color;

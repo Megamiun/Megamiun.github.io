@@ -18,7 +18,7 @@
     }
 
     p:not(.item-title):not(.category-title) {
-        font-size: 12px;
+        font-size: $description-font-size;
     }
 }
 
