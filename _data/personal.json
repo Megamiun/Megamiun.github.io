@@ -1,22 +1,32 @@
 [
     {
+        "icon": "calendar.svg",
         "name": "Idade",
         "value": 22
     },
     {
+        "icon": "home.svg",
         "name": "Bairro",
-        "value": "São Miguel Paulista"
+        "value": "Moema"
     },
     {
+        "icon": "map-marker.svg",
         "name": "Cidade",
         "value": "São Paulo - SP"
     },
     {
+        "icon": "envelope-closed.svg",
+        "name": "E-mail",
+        "value": "gabryelARM@gmail.com"
+    },
+    {
+        "icon": "heart.svg",
         "name": "Telegram",
         "value": "@Megamiun",
         "url": "http://t.me/megamiun"
     },
     {
+        "icon": "fork.svg",
         "name": "Github",
         "value": "Megamiun",
         "url": "https://github.com/Megamiun"
