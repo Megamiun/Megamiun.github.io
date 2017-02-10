@@ -13,6 +13,15 @@
         font-weight: bold;
     }
 
+    .item-icon {
+        margin-right: 5px;
+
+        svg {
+            height: 1em;
+            width: 1em;
+        }
+    }
+
     .item-title {
         font-weight: bold;
     }

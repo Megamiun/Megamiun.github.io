@@ -2,6 +2,11 @@
 
 {% for info in site.data.personal %}
     <div class="block-wrapper" >
+        <p class="item-icon" >
+            {% if info.icon %}
+                {% include {{ info.icon }} %}
+            {% endif %}
+        </p>
         <p class="item-title" >{{ info.name }}: </p>
         <p>
             {% if info.url %}
