@@ -50,8 +50,10 @@ a {
     }
 }
 
-#personal-panel svg {
-    fill: $left-font-color;
+#personal-panel, #small-info-panel {
+    svg {
+        fill: $left-font-color;
+    }
 }
 
 @media screen and (min-width: $small-screen-breakpoint) {
