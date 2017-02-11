@@ -1,0 +1,58 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "constants";
+
+@media (min-width: $small-screen-breakpoint) {
+    body {
+        display: flex;
+    }
+
+    #personal-panel {
+        background-color: $left-color;
+        color: $left-font-color;
+        flex: 1 0 0;
+    }
+
+    #professional-panel {
+        background-color: $right-color;
+        color: $right-font-color;
+        flex: 3 0 0;
+    }
+
+    #small-info-panel {
+        display: none;
+    }
+
+    #avatar {
+        width: 55%;
+        height: auto;
+    }
+}
+
+@media (max-width: $small-screen-breakpoint) {
+    #personal-panel {
+        background-color: $left-color;
+        color: $left-font-color;
+    }
+
+    #professional-panel {
+        background-color: $right-color;
+        color: $right-font-color;
+    }
+
+    #small-info-panel {
+        background-color: $left-color;
+        color: $left-font-color;
+    }
+
+    #info-panel {
+        display: none;
+    }
+
+    #avatar {
+        width: 40%;
+        height: auto;
+    }
+}
