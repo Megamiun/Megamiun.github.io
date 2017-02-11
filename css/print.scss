@@ -5,16 +5,16 @@
 @import "constants";
 
 body > section {
-    padding: 20px 0;
+    padding: 15px 0;
+}
+
+.external-link {
+    display: none;
 }
 
 @media (orientation: landscape) {
     body {
         display: flex;
-    }
-
-    #personal-panel svg {
-        display: none;
     }
 
     #personal-panel {
@@ -41,7 +41,7 @@ body > section {
     }
 
     #avatar {
-        width: 40%;
+        width: 20%;
         height: auto;
     }
 }

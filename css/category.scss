@@ -5,6 +5,8 @@
 @import "constants";
 
 .category {
+    page-break-inside: avoid;
+    page-break-after: auto;
     margin: 25px;
 
     .category-title {
@@ -36,7 +38,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    page-break-inside: auto;
+
     .category {
+        page-break-after: auto;
         display: inline;
         width: 16em;
     }
