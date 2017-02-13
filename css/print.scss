@@ -8,6 +8,28 @@
     display: none;
 }
 
+#qr-code {
+    display: block;
+    margin: 0 auto;
+}
+
+#avatar {
+    display: none;
+}
+
+a {
+    color: $print-font-color;
+}
+
+
+.exp-level .dot {
+    border: 1px $print-font-color solid;
+
+    &.active {
+        background-color: $print-font-color;
+    }
+}
+
 @media (orientation: landscape) {
     body {
         display: flex;
@@ -18,6 +40,7 @@
     }
 
     #personal-panel {
+        border-right: 1px solid $print-font-color;
         flex: 1 0 0;
     }
 
@@ -28,21 +51,11 @@
     #small-info-panel {
         display: none;
     }
-
-    #avatar {
-        width: 55%;
-        height: auto;
-    }
 }
 
 @media (orientation: portrait) {
     #info-panel {
         display: none;
-    }
-
-    #avatar {
-        width: 20%;
-        height: auto;
     }
 }
 

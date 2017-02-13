@@ -10,7 +10,7 @@
     margin: 25px;
 
     .category-title {
-        border-bottom: 1px $highlight-color solid;
+        border-bottom: 1px solid;
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -120,9 +120,5 @@
         border-radius: 50%;
         display: inline-block;
         vertical-align: middle;
-
-        &.active {
-            background-color: $highlight-color;
-        }
     }
 }
