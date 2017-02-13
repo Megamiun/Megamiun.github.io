@@ -4,6 +4,50 @@
 
 @import "constants";
 
+#avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+#qr-code {
+    display: none;
+}
+
+#personal-panel, #small-info-panel {
+    background-color: $left-color;
+    color: $left-font-color;
+
+    svg {
+        fill: $left-font-color;
+    }
+}
+
+#professional-panel {
+    background-color: $right-color;
+    color: $right-font-color;
+}
+
+a {
+    color: $left-font-color;
+}
+
+.circle {
+    border-color: $highlight-color;
+}
+
+// TODO Arrumar um jeito de fazer isso sem !important
+.category-title {
+    border-bottom-color: $highlight-color !important;
+}
+
+.exp-level .dot {
+    border: 1px $highlight-color solid;
+
+    &.active {
+        background-color: $highlight-color;
+    }
+}
+
 @media (min-width: $small-screen-breakpoint) {
     body {
         display: flex;

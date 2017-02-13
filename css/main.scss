@@ -24,13 +24,7 @@ p, a {
 }
 
 a {
-    color: $left-font-color;
     text-decoration: none;
-}
-
-#avatar {
-    display: block;
-    margin: 0 auto;
 }
 
 #name {
@@ -39,7 +33,7 @@ a {
 }
 
 .circle {
-    border: 3px $highlight-color solid;
+    border: 3px solid;
     border-radius: 50%;
 }
 
@@ -49,18 +43,4 @@ a {
     * {
         display: inline;
     }
-}
-
-#personal-panel, #small-info-panel {
-    background-color: $left-color;
-    color: $left-font-color;
-
-    svg {
-        fill: $left-font-color;
-    }
-}
-
-#professional-panel {
-    background-color: $right-color;
-    color: $right-font-color;
 }
