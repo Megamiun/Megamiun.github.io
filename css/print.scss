@@ -4,10 +4,6 @@
 
 @import "constants";
 
-body > section {
-    padding: 15px 0;
-}
-
 .external-link {
     display: none;
 }
@@ -15,6 +11,10 @@ body > section {
 @media (orientation: landscape) {
     body {
         display: flex;
+    }
+
+    .category {
+        margin-top: 10px;
     }
 
     #personal-panel {
