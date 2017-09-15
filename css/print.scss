@@ -37,6 +37,9 @@ a {
 
     .category {
         margin-top: 10px;
+        .category-title {
+            border-bottom-color: $print-font-color;
+        }
     }
 
     #personal-panel {
