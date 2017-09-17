@@ -16,7 +16,7 @@
 #personal-panel, #small-info-panel {
     background-color: $left-color;
     color: $left-font-color;
-
+    padding-left: constant(safe-area-inset-left);
     svg {
         fill: $left-font-color;
     }
@@ -25,6 +25,7 @@
 #professional-panel {
     background-color: $right-color;
     color: $right-font-color;
+    padding-right: constant(safe-area-inset-right);
 }
 
 a {
@@ -35,10 +36,6 @@ a {
     border-color: $highlight-color;
 }
 
-// TODO Arrumar um jeito de fazer isso sem !important
-.category-title {
-    border-bottom-color: $highlight-color !important;
-}
 
 .exp-level .dot {
     border: 1px $highlight-color solid;
@@ -71,6 +68,13 @@ a {
     }
 }
 
+@media(max-width: $smaller-screen-breakpoint) {
+    #personal-panel {
+        flex: 2 0 0;
+    }
+}
+
+
 @media (max-width: $small-screen-breakpoint) {
     #info-panel {
         display: none;
@@ -80,4 +84,5 @@ a {
         width: 40%;
         height: auto;
     }
+
 }
