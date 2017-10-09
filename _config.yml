@@ -15,9 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 name: Gabryel Monteiro
 email: gabryelARM@gmail.com
-personal-description: Desenvolvedor iniciante com aspirações à Arquiteto de Software.
-site-description: Curriculo de Gabryel Monteiro, desenvolvedor iniciante com aspirações à Arquiteto de Software.
-baseurl: ""
+personal-description: Analista de Sistemas, Full-Stack Developer, apoiador do Open Source, futuro Arquiteto de Sistemas.
+site-description: Curriculo de Gabryel Monteiro, Full-Stack Developer, futuro Arquiteto de Sistemas.
 url: "www.gabryel.com.br"
 github_username: Megamiun
 

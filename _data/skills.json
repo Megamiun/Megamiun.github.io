@@ -8,24 +8,24 @@
                 "level": 4
             },
             {
+                "name": "Kotlin",
+                "level": 3
+            },
+            {
                 "name": "C",
                 "level": 3
             },
             {
+                "name": "Python",
+                "level": 2
+            },
+            {
                 "name": "Javascript",
-                "level": 3
+                "level": 2
             },
             {
                 "name": "HTML/CSS",
                 "level": 2
-            },
-            {
-                "name": "Python",
-                "level": 1
-            },
-            {
-                "name": "Kotlin",
-                "level": 1
             }
         ]
     },
@@ -44,7 +44,11 @@
             {
                 "name": "Git",
                 "level": 3
-            },
+            },,
+            {
+                "name": "Linux",
+                "level": 3
+            }
             {
                 "name": "Jekyll",
                 "level": 2
