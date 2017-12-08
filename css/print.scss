@@ -30,6 +30,14 @@ a {
     }
 }
 
+.category-title {
+    border-bottom-color: $print-font-color;
+}
+
+#personal-panel {
+    border-right: 1px solid $print-font-color;
+}
+
 @media (orientation: landscape) {
     body {
         display: flex;
@@ -37,13 +45,9 @@ a {
 
     .category {
         margin-top: 10px;
-        .category-title {
-            border-bottom-color: $print-font-color;
-        }
     }
 
     #personal-panel {
-        border-right: 1px solid $print-font-color;
         flex: 1 0 0;
     }
 

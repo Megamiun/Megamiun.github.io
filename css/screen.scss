@@ -45,6 +45,10 @@ a {
     }
 }
 
+.category .category-title {
+    border-bottom-color: $highlight-color;
+}
+
 @media (min-width: $small-screen-breakpoint) {
     body {
         display: flex;
@@ -84,5 +88,4 @@ a {
         width: 40%;
         height: auto;
     }
-
 }

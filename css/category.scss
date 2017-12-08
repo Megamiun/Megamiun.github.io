@@ -13,7 +13,6 @@
         border-bottom: 1px solid;
         text-transform: uppercase;
         font-weight: bold;
-        border-bottom-color: $highlight-color;
     }
 
     .item-icon {
@@ -43,15 +42,28 @@
     .category {
         page-break-after: auto;
         display: inline;
+    }
+    
+    &#skills > .category {
         width: 16em;
+    }
+    
+    &#life > .category {
+        width: 23em;
     }
 }
 
 .timebox {
     display: flex;
+    width: 100%;
 
     .info {
+        flex: 4;
         margin: 0px 5px;
+    }
+    
+    .timeline {
+        flex: 1;
     }
 
     &:first-of-type .timeline {
