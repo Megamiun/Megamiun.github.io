@@ -20,6 +20,12 @@
         "value": "gabryelARM@gmail.com"
     },
     {
+        "icon": "briefcase.svg",
+        "name": "LinkedIn",
+        "value": "Gabryel Monteiro",
+        "url": "https://www.linkedin.com/in/gabryelarm/"
+    },
+    {
         "icon": "location.svg",
         "name": "Telegram",
         "value": "@Megamiun",
