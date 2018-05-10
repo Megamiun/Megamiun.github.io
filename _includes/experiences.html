@@ -1,7 +1,7 @@
 <p class="category-title" >Experiência</p>
 
-{% for place in site.data.experiences %}
-    {% for pos in place.position %}
+{% for place in site.data.experiences reversed %}
+    {% for pos in place.position reversed %}
         <div class="timebox" >
             <div class="timeline" >
                 {% include time-arrow.html year=pos.started.year month=pos.started.month %}

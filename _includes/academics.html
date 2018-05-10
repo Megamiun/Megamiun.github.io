@@ -1,6 +1,6 @@
 <p class="category-title" >Acadêmico</p>
 
-{% for place in site.data.academics %}
+{% for place in site.data.academics reversed %}
     <div class="timebox" >
         <div class="timeline" >
             {% include time-arrow.html year=place.started %}
