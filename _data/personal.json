@@ -46,6 +46,7 @@
         "icon": "document.svg",
         "name": "Alura",
         "value": "Certificado",
+        "printable": false,
         "url": "https://cursos.alura.com.br/user/gabryel-monteiro/fullCertificate/1ffb0f35608b449016d62a0df7eafb15"
     }
 ]

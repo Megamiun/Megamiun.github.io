@@ -42,11 +42,15 @@
                 "level": 3
             },
             {
-                "name": "JBoss/WildFly",
+                "name": "Terminal",
                 "level": 3
             },
             {
-                "name": "Terminal",
+                "name": "Jekyll",
+                "level": 3
+            },
+            {
+                "name": "JBoss/WildFly",
                 "level": 3
             },
             {
@@ -54,7 +58,7 @@
                 "level": 3
             },
             {
-                "name": "Jekyll",
+                "name": "Spring",
                 "level": 2
             },
             {

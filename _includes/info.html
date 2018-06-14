@@ -1,7 +1,7 @@
 <p class="category-title" >Pessoal</p>
 
 {% for info in site.data.personal %}
-    <div class="block-wrapper" >
+    <div class="block-wrapper {% if info.printable == false %} non-printable {% endif %}" >
         <p class="item-icon" >
             {% if info.icon %}
                 {% include {{ info.icon }} %}
