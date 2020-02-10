@@ -1,10 +1,10 @@
 [
     {
-        "name": "RiskOffice Consultoria Financeira",
+        "name": "RiskOffice Consultoria Financeira/Aditus Assessoria e Sistemas",
         "position":
         [
             {
-                "name": "Analista de Sistemas Estagiário",
+                "name": "Systems Analyst - Full Stack - Intern",
                 "started": {
                     "month": 6,
                     "year": 2014
@@ -15,30 +15,13 @@
                 }
             },
             {
-                "name": "Analista de Sistemas Pleno",
+                "name": "Systems Analyst - Full Stack",
                 "started": {
                     "month": 6,
                     "year": 2016
                 },
                 "ended": {
                     "month": 10,
-                    "year": 2016
-                }
-            }
-        ]
-    },
-    {
-        "name": "Aditus Assessoria e Sistemas",
-        "position":
-        [
-            {
-                "name": "Analista de Sistemas Pleno",
-                "started": {
-                    "month": 10,
-                    "year": 2016
-                },
-                "ended": {
-                    "month": 7,
                     "year": 2018
                 }
             }
@@ -49,7 +32,7 @@
         "position":
         [
             {
-                "name": "Analista Pleno",
+                "name": "Systems Analyst - Back-End",
                 "started": {
                     "month": 7,
                     "year": 2018
@@ -66,7 +49,7 @@
         "position":
         [
             {
-                "name": "Back-end Sênior",
+                "name": "Developer Back-end - Senior",
                 "started": {
                     "month": 10,
                     "year": 2019
