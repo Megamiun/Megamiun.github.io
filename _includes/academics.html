@@ -1,4 +1,4 @@
-<p class="category-title" >Acadêmico</p>
+<p class="category-title" >Academics</p>
 
 {% for place in site.data.academics reversed %}
     <div class="timebox" >
@@ -7,7 +7,7 @@
         </div>
         <div class="info" >
             <p class="item-title" >{{ place.name }}</p>
-            <p>{{ place.level }} in: {{ place.class }}</p>
+            <p>{{ place.level }} in {{ place.class }}</p>
         </div>
     </div>
 {% endfor %}
