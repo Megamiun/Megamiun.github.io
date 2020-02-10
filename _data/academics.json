@@ -1,15 +1,15 @@
 [
     {
         "name": "ETEC Martin Luther King",
-        "class": "Mecatrônica",
-        "level": "Técnico",
+        "class": "Mechatronics",
+        "level": "Technical Certificate",
         "started": 2010,
         "ended": 2011
     },
     {
         "name": "Universidade de São Paulo - USP",
-        "class": "Sistemas da Informação",
-        "level": "Bacharel",
+        "class": "Information Systems",
+        "level": "Bachelors Degree",
         "started": 2012,
         "ended": 2016
     }
