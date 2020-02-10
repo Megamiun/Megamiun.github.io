@@ -12,7 +12,7 @@
                 "ended": {
                     "month": 6,
                     "year": 2016
-                },
+                }
             },
             {
                 "name": "Analista de Sistemas Pleno",
@@ -23,7 +23,7 @@
                 "ended": {
                     "month": 10,
                     "year": 2016
-                },
+                }
             }
         ]
     },
@@ -40,7 +40,7 @@
                 "ended": {
                     "month": 7,
                     "year": 2018
-                },
+                }
             }
         ]
     },
@@ -53,6 +53,23 @@
                 "started": {
                     "month": 7,
                     "year": 2018
+                },
+                "ended": {
+                    "month": 10,
+                    "year": 2019
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gympass",
+        "position":
+        [
+            {
+                "name": "Back-end Sênior",
+                "started": {
+                    "month": 10,
+                    "year": 2019
                 }
             }
         ]

@@ -1,17 +1,7 @@
 [
     {
-        "icon": "calendar.svg",
-        "name": "Idade",
-        "value": 23
-    },
-    {
-        "icon": "home.svg",
-        "name": "Bairro",
-        "value": "Moema"
-    },
-    {
         "icon": "map-marker.svg",
-        "name": "Cidade",
+        "name": "City",
         "value": "São Paulo - SP"
     },
     {

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tecnologias",
+        "name": "Technologies",
         "skills":
         [
             {
@@ -10,6 +10,10 @@
             {
                 "name": "Java",
                 "level": 4
+            },
+            {
+                "name": "Ruby",
+                "level": 2
             },
             {
                 "name": "Python",
@@ -30,11 +34,15 @@
         ]
     },
     {
-        "name": "Ferramentas",
+        "name": "Tools",
         "skills":
         [
             {
                 "name": "Git",
+                "level": 4
+            },
+            {
+                "name": "Spring",
                 "level": 4
             },
             {
@@ -51,14 +59,10 @@
             },
             {
                 "name": "JBoss/WildFly",
-                "level": 3
+                "level": 2
             },
             {
                 "name": "JSF",
-                "level": 3
-            },
-            {
-                "name": "Spring",
                 "level": 2
             },
             {
@@ -68,19 +72,19 @@
         ]
     },
     {
-        "name": "Idiomas",
+        "name": "Languages",
         "skills":
         [
             {
-                "name": "Português",
+                "name": "Poruguese",
                 "level": 5
             },
             {
-                "name": "Inglês",
+                "name": "English",
                 "level": 4
             },
             {
-                "name": "Espanhol",
+                "name": "Spanish",
                 "level": 1
             },
         ]
