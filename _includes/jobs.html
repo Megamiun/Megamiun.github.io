@@ -1,0 +1,22 @@
+<p class="category-title" >Experiences</p>
+
+<section id="jobs" class="multi" >
+    {% for place in site.data.experiences %}
+        <section class="category" >
+            <p class="category-title" >{{ place.name }}</p>
+            <p class="category-description" >{{ place.description }}</p>
+
+            <p class="category-description" >
+                <b>Worked on</b>: {{ place.workedOn }}
+            </p>
+
+            <p class="category-description" >
+                <b>Lessons Learnt</b>: {{ place.lessonsLearnt }}
+            </p>
+
+            <p class="category-description" >
+                <b>Technologies</b>: {{ place.technologies | join: ", " }}
+            </p>
+        </section>
+    {% endfor %}
+</section>
