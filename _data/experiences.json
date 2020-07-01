@@ -1,8 +1,7 @@
 [
     {
         "name": "RiskOffice Consultoria Financeira/Aditus Assessoria e Sistemas",
-        "position":
-        [
+        "position": [
             {
                 "name": "Systems Analyst - Full Stack - Intern",
                 "started": {
@@ -13,8 +12,7 @@
                     "month": 6,
                     "year": 2016
                 }
-            },
-            {
+            }, {
                 "name": "Systems Analyst - Full Stack",
                 "started": {
                     "month": 6,
@@ -25,12 +23,15 @@
                     "year": 2018
                 }
             }
+        ],
+        "workedOn": "A service and website focused on allowing the user to follow the status of their financial wallets daily, automatically updated by consuming from a lot of varied resources and sites.",
+        "lessonsLearnt": "My first job, on a financial consulting company, the place where I started to learn programming more profoundly :D There I started to learn how to program and organize a system, that every choice has its costs and how to work in a team.",
+        "technologies": [
+            "Java (6 and 8)", "JSF", "Primefaces", "CDI", "Spring Boot", "Thymeleaf", "SVN", "Git", "MySQL"
         ]
-    },
-    {
+    }, {
         "name": "Concrete Desenvolvimento de Sistemas",
-        "position":
-        [
+        "position": [
             {
                 "name": "Systems Analyst - Back-End",
                 "started": {
@@ -42,12 +43,15 @@
                     "year": 2019
                 }
             }
+        ],
+        "workedOn": "The creation of the backend of a new platform that would allow thousands of users of various clients to have access to a new digital credit card's service, backed by PCI third parties, usually under the \"Payments\" team.",
+        "lessonsLearnt": "My second job, on a software consulting company, the first one on a bigger project, working for a very secret, very big financial institution, there I started learning about working in microservices and the art of distributed systems, there too I experienced Scrumm and learned better how to talk with clients.",
+        "technologies": [
+            "Kotlin", "MongoDB", "AWS", "S3", "SQS", "SNS", "Kubernetes", "Git", "Gradle", "Spring Boot", "Spring (Reactor, Security, Webflux, ...)"
         ]
-    },
-    {
+    }, {
         "name": "Gympass",
-        "position":
-        [
+        "position": [
             {
                 "name": "Developer Back-end - Senior",
                 "started": {
@@ -55,6 +59,11 @@
                     "year": 2019
                 }
             }
+        ],
+        "workedOn": "The backend to a global fitness app, as it grows and grows evermore, I am working on the \"Sign-up\" team, helping plan the evolution of our platform.",
+        "lessonsLearnt": "Working on this unicorn, I learned a lot about the challenges of working on a global system that never stops and that no only can't stop, but must keep getting more and more scalable for the future. There too I learned how choosing the way your data is organizated is essential to having a scalable system and not just a choice between SQL and NoSQL. There too I learned better help my junior co-workers and taking a more active role in communicating between the developer and product teams.",
+        "technologies": [
+            "Ruby", "Ruby on Rails", "Scala", "Akka", "DynamoDB", "MySQL", "RabbitMQ", "AWS", "S3", "Kubernetes", "Git"
         ]
     }
 ]

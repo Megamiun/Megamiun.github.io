@@ -8,7 +8,7 @@
             </div>
             <div class="info" >
                 {% if forloop.first %}
-                    <p class="item-title" >{{ place.name }}</p>
+                    <p class="item-title" >{{ place.name | replace: '/', '<br/>'}}</p>
                 {% endif %}
                 <p>{{ pos.name }}</p>
             </div>
