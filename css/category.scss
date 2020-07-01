@@ -43,13 +43,26 @@
         page-break-after: auto;
         display: inline;
     }
+}
     
-    &#skills > .category {
-        width: 16em;
-    }
+#experiences {
+    width: 25em;
+}
     
-    &#life > .category {
-        width: 23em;
+#academics {
+    width: 25em;
+}
+    
+#skills > .category {
+    width: 16em;
+}
+
+#jobs > .category {
+    width: 36em;
+
+    > p {
+        text-align: justify;
+        text-justify: inter-word;
     }
 }
 
