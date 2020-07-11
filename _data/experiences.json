@@ -24,7 +24,7 @@
                 }
             }
         ],
-        "workedOn": "A service and website focused on allowing the user to follow the status of their financial wallets daily, automatically updated by consuming from a lot of varied resources and sites. Also I became a leader with a focus on Kotlin inside the Backend chapter.",
+        "workedOn": "A service and website focused on allowing the user to follow the status of their financial wallets daily, automatically updated by consuming from a lot of varied resources and sites.",
         "lessonsLearnt": "My first job, on a financial consulting company, the place where I started to learn programming more profoundly. There I started to learn how to program and organize a system, that every choice has its costs and how to work in a team.",
         "technologies": [
             "Java (6 and 8)", "JSF", "Primefaces", "CDI", "Spring Boot", "Thymeleaf", "SVN", "Git", "MySQL"
@@ -44,7 +44,7 @@
                 }
             }
         ],
-        "workedOn": "The creation of the backend of a new platform that would allow thousands of users of various clients to have access to a new digital credit card's service, backed by PCI third parties, usually under the \"Payments\" team.",
+        "workedOn": "The creation of the backend of a new platform that would allow thousands of users of various clients to have access to a new digital credit card's service, backed by PCI third parties, usually under the \"Payments\" team. Also I became a leader with a focus on Kotlin inside the Backend chapter.",
         "lessonsLearnt": "My second job, on a software consulting company, the first one on a bigger project, working for a very secret, very big financial institution, there I started learning about working in microservices and the art of distributed systems, there too I experienced Scrum and learned better how to talk with clients.",
         "technologies": [
             "Kotlin", "MongoDB", "AWS", "S3", "SQS", "SNS", "Kubernetes", "Git", "Gradle", "Spring Boot", "Spring (Reactor, Security, Webflux, ...)"
