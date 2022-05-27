@@ -33,8 +33,20 @@ a {
     border-bottom-color: $print-font-color;
 }
     
-#jobs > .category {
-    width: 80%;
+#jobs {
+    break-inside: avoid;
+    break-before: always;
+
+    > .category {
+        width: 80%;
+    }
+
+    .multi {
+        .category {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+    }
 }
 
 #personal-panel {
@@ -43,19 +55,18 @@ a {
 
 .category {
     margin: 0;
-    padding: 12px 20px;
+    padding: 12px 10px;
 }
 
 .multi {
     margin: 0;
-    padding: 0px 20px;
+    padding: 0px 6px;
 }
 
 .category > .multi {
     margin: 0;
     padding: 0;
 }
-
 
 @media (orientation: landscape) {
     #personal-panel {
