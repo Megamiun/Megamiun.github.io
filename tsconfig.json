@@ -11,6 +11,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": [
+      "@modyfi/vite-plugin-yaml/modules",
+      "vite-plugin-svgr/client"
+    ]
   }
 }

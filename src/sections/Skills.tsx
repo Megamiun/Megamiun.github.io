@@ -1,8 +1,8 @@
 import React from "react";
 import { Skills } from "../sources/DataTypes";
 
-type SkillProps = { name: string, level: number, workedWith?: boolean };
-type SkillTypeProps = { category: { name: string, skills: SkillProps[] } };
+type SkillProps = { name: string, level: number };
+type SkillTypeProps = { category: { name: string, skills: SkillProps[] }, limit?: number };
 
 const Skill = (skill: SkillProps) =>
     <div className="exp-level">
@@ -15,14 +15,18 @@ const Skill = (skill: SkillProps) =>
         }
     </div>
 
-const Category = ({category}: SkillTypeProps) =>
+const Category = ({category, limit}: SkillTypeProps) =>
     <section className="category">
         <p className="category-title">{category.name}</p>
 
-        {category.skills.map(skill => <Skill key={skill.name} {...skill} />)}
+        {
+            category.skills
+                .slice(0, limit || category.skills.length)
+                .map(skill => <Skill key={skill.name} {...skill} />)
+        }
     </section>
 
-export default ({data}: { data: Skills }) =>
+export default ({data, limit}: { data: Skills, limit?: number }) =>
     <section id="skills" className="multi">
-        {data.map(category => <Category key={category.name} category={category}/>)}
+        {data.map(category => <Category key={category.name} category={category} limit={limit}/>)}
     </section>

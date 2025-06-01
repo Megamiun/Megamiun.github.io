@@ -17,6 +17,8 @@ import certifications from "../data/certifications.json";
 import experiences from "../data/experiences.json";
 import skills from "../data/skills.json";
 
+import env from "../data/variables.yaml"
+
 import "../css/main.scss"
 import "../css/category.scss"
 import "../css/screen.scss"
@@ -33,7 +35,7 @@ createRoot(document.getElementById('root')).render(
 
             <Category>
                 <p id="name" className="category-title">Gabryel<br/>Monteiro</p>
-                <p>Back-End Developer, Systems Analyst, Open Source Enthusiast, Strongly Typed.</p>
+                {env.description.map(line => <p key={line}>{line}</p>)}
             </Category>
             <Category id="info-panel" title="Personal"><Info data={personal}/></Category>
         </section>
@@ -46,7 +48,7 @@ createRoot(document.getElementById('root')).render(
                 </section>
                 <Category id="experiences" title="Experiences"><Experiences data={experiences}/></Category>
             </section>
-            <Category id="skills" title="Skills"><Skills data={skills}/></Category>
+            <Category id="skills" title="Skills"><Skills data={skills} limit={8} /></Category>
             <Category id="jobs" title="Jobs"><Jobs data={experiences}/></Category>
         </section>
 

@@ -3,10 +3,9 @@
 Gabryel's CV. Created using React
 
 ## TODO
-- [ ] Check print version
+- [ ] Make new print layout
   - [ ] Have a horizontal layout
   - [ ] Have a vertical layout
-- [ ] Setup GH Page
 
 ## Assets
 
