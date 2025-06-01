@@ -13,7 +13,7 @@ import certifications from "../data/certifications.json";
 import experiences from "../data/experiences.json";
 import skills from "../data/skills.json";
 import personal from "../data/personal.json";
-import { Icons } from "../helpers/icons/Icons";
+import { Icons } from "../helpers/icons";
 
 export default () => <>
     <section id="personal-panel">

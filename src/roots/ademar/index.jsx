@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import "../../css/ademar/main.scss"
 import Markdown from "react-markdown";
 
-import content from "/ademar.md?url&raw"
+import content from "/markdown/ademar.md?url&raw"
 
 const Page = () => {
     return <>

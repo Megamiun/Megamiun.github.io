@@ -1,4 +1,4 @@
-import { includeSVG } from "../helpers/icons/Icons";
+import { includeSVG } from "../helpers/icons";
 import React from "react";
 
 type LinkProps = { value: string, url?: string };

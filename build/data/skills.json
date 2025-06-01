@@ -1,0 +1,124 @@
+[
+    {
+        "name": "Technologies",
+        "skills": [
+            {
+                "name": "Kotlin",
+                "level": 5,
+                "workedWith": true
+            },
+            {
+                "name": "Java",
+                "level": 4,
+                "workedWith": true
+            },
+            {
+                "name": "Typescript",
+                "level": 3,
+                "workedWith": true
+            },
+            {
+                "name": "Javascript",
+                "level": 3,
+                "workedWith": true
+            },
+            {
+                "name": "Rust",
+                "level": 2,
+                "workedWith": false
+            },
+            {
+                "name": "Scala",
+                "level": 2,
+                "workedWith": true
+            },
+            {
+                "name": "Ruby",
+                "level": 2,
+                "workedWith": true
+            },
+            {
+                "name": "Python",
+                "level": 2,
+                "workedWith": false
+            },
+            {
+                "name": "C",
+                "level": 2,
+                "workedWith": false
+            },
+            {
+                "name": "Bash",
+                "level": 2,
+                "workedWith": false
+            }
+        ]
+    },
+    {
+        "name": "Tools",
+        "skills": [
+            {
+                "name": "Spring",
+                "level": 5
+            },
+            {
+                "name": "Git",
+                "level": 4
+            },
+            {
+                "name": "Linux",
+                "level": 4
+            },
+            {
+                "name": "Terminal",
+                "level": 4
+            },
+            {
+                "name": "Postgres",
+                "level": 3
+            },
+            {
+                "name": "MySQL",
+                "level": 3
+            },
+            {
+                "name": "Kubernetes",
+                "level": 2
+            },
+            {
+                "name": "AWS",
+                "level": 3
+            },
+            {
+                "name": "Azure",
+                "level": 2
+            },
+            {
+                "name": "DynamoDB",
+                "level": 1,
+                "workedWith": true
+            }
+        ]
+    },
+    {
+        "name": "Languages",
+        "skills": [
+            {
+                "name": "Portuguese",
+                "level": 5
+            },
+            {
+                "name": "English",
+                "level": 4
+            },
+            {
+                "name": "Spanish",
+                "level": 2
+            },
+            {
+                "name": "Dutch",
+                "level": 1
+            }
+        ]
+    }
+]

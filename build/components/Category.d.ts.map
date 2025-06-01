@@ -1,0 +1,1 @@
+{"version":3,"file":"Category.d.ts","sourceRoot":"","sources":["../../src/components/Category.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAC/B,OAAO,EAAE,iBAAiB,EAAE,MAAM,OAAO,CAAC;AAE1C,KAAK,aAAa,GAAG,iBAAiB,CAAC;IACnC,EAAE,CAAC,EAAE,MAAM,CAAC;IACZ,KAAK,CAAC,EAAE,MAAM,CAAC;IACf,SAAS,CAAC,EAAE,OAAO,CAAA;CACtB,CAAC,CAAA;yBAEc,oCAAkC,aAAa;AAA/D,wBAIc"}

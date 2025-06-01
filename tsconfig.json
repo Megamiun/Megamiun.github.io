@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
     "jsx": "react",
+    "target": "es2016",
+    "module": "ESNext",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": [ "es2015", "dom" ]
+    "isolatedModules": true
   }
 }

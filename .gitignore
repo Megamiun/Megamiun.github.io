@@ -1,10 +1,7 @@
-_site
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
 .history
 
 dist
 node_modules
+tsconfig.tsbuildinfo
 
 .idea

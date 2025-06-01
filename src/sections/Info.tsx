@@ -1,5 +1,5 @@
 import React from "react";
-import { includeSVG } from "../helpers/icons/Icons";
+import { includeSVG } from "../helpers/icons";
 import { Personal } from "../sources/DataTypes";
 import { Link } from "../components/Link";
 
