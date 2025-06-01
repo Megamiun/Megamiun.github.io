@@ -43,7 +43,7 @@
     "name": "Itaú/(via Concrete Desenvolvimento de Sistemas)",
     "position": [
       {
-        "name": "Systems Analyst - Back-End",
+        "name": "Systems Analyst - Back-end",
         "started": {
           "month": 7,
           "year": 2018
@@ -85,8 +85,8 @@
         }
       }
     ],
-    "workedOn": "The backend to a global fitness app, as it grows and grows evermore, I am working on the \"Sign-up\" team, helping plan the evolution of our platform.",
-    "lessonsLearnt": "Working on this unicorn, I learned a lot about the challenges of working on a global system that never stops and that no only can't stop, but must keep getting more and more scalable for the future. There too I learned how choosing the way your data is organizated is essential to having a scalable system and not just a choice between SQL and NoSQL. There too I learned better help my junior co-workers and taking a more active role in communicating between the developer and product teams.",
+    "workedOn": "The backend to a global fitness app, I worked on the \"Sign-up\" team, helping plan the evolution of our platform.",
+    "lessonsLearnt": "Working on this unicorn, I learned a lot about the challenges of working on a global system that never stops and that no only can't stop, but must keep getting more and more scalable for the future. There too I learned how choosing the way your data is organized is essential to having a scalable system and not just a choice between SQL and NoSQL. There too I learned better help my junior co-workers and taking a more active role in communicating between the developer and product teams.",
     "technologies": [
       "Ruby",
       "Ruby on Rails",
@@ -109,11 +109,15 @@
         "started": {
           "month": 8,
           "year": 2020
+        },
+        "ended": {
+          "month": 2,
+          "year": 2023
         }
       }
     ],
     "workedOn": "Multiple spheres of a payments service, from implementation of new payment methods to managing the team and implementing PCI compliance.",
-    "lessonsLearnt": "Working at Lian Lian, I found myself at the first time at a leadership position, learning how to better manage expectations and time constraints between tech and business teams. Also, I learned a lot of how to implement systems from the ground and expand them on necessity, as infrastructure was another focus of my work. And one more time, I saw the difference that can be made in sharing your knowledge with your colleages and always communicating, seeing all the parts learning and using this new knowledge to build a better system with less friction.",
+    "lessonsLearnt": "Working at Lian Lian, I found myself at the first time at a leadership position, learning how to better manage expectations and time constraints between tech and business teams. Also, I learned a lot of how to implement systems from the ground and expand them on necessity, as infrastructure was another focus of my work. And one more time, I saw the difference that can be made in sharing your knowledge with your colleagues and always communicating, seeing all the parts learning and using this new knowledge to build a better system with less friction.",
     "technologies": [
       "Kotlin",
       "Spring Boot",
@@ -140,10 +144,21 @@
         }
       }
     ],
-    "workedOn": "Lorem Ipsum",
-    "lessonsLearnt": "Lorem Ipsum",
+    "workedOn": "A data analysis system for the lithography giant, which allows users to visualize the results of their work through in-detail charts and statistics. Other than that, I worked directly on improvements on test frameworks and back-end speed.",
+    "lessonsLearnt": "Working in ASML, I found myself observing processes and optimizing developer experience, which created measurable quality of life changes to the developers day to day work.",
     "technologies": [
-      "Lorem Ipsum"
+      "Java (8, 11, 17)",
+      "Spring Boot",
+      "Typescript",
+      "React",
+      "NPM",
+      "Maven",
+      "Hibernate",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "JUnit",
+      "Spark"
     ]
   }
 ]

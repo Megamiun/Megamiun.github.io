@@ -14,7 +14,10 @@
 
 #professional-panel {
   background-color: constants.$right-color;
-  color: constants.$right-font-color;
+
+  svg {
+    fill: constants.$right-font-color;
+  }
 
   * {
     color: constants.$right-font-color;

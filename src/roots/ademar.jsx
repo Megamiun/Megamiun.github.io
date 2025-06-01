@@ -1,6 +1,6 @@
 import React from "react";
 import {createRoot} from 'react-dom/client';
-import "../../css/ademar/main.scss"
+import "../css/ademar/main.scss"
 import Markdown from "react-markdown";
 
 import content from "/markdown/ademar.md?url&raw"

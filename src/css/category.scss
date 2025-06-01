@@ -3,7 +3,7 @@
 .category {
   margin: 16px 14px;
 
-  > section {
+  > .category, .category-title {
     margin-top: 0;
   }
 
@@ -11,6 +11,12 @@
     border-bottom: 1px solid;
     text-transform: uppercase;
     font-weight: bold;
+
+    .right-aligned {
+      display: inline;
+      font-weight: normal;
+      align-self: end;
+    }
   }
 
   .item-icon {

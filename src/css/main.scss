@@ -11,13 +11,20 @@ body {
   margin: 0;
 }
 
-#root > section {
-  padding: 20px 0;
+#picture-container {
+  display: block;
+  margin: 0 auto;
+
+  > * {
+    width: 100%;
+    height: auto;
+    display: none;
+    aspect-ratio: 1/1;
+  }
 }
 
-#qr-code, #avatar {
-  aspect-ratio: 1/1;
-  display: none;
+#root > section {
+  padding: 20px 0;
 }
 
 p, a {

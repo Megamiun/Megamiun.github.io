@@ -1,8 +1,9 @@
 import React from "react";
+import { DateDescriptor, describeDate } from "../helpers/time";
 
-export type Timed = { month?: number, year: number };
-
-export default ({date}: { date?: Timed }) =>
+export default ({date}: { date?: DateDescriptor }) =>
     <div className="date-container">
-        <p>{date?.month ? `${date.month}/${date.year}` : date ? date.year : ''}</p>
+        <p>
+            { describeDate(date) }
+        </p>
     </div>

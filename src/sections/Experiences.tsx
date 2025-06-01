@@ -1,14 +1,15 @@
 import React from "react";
-import { Timed } from "../components/TimeArrow";
+import { DateDescriptor } from "../helpers/time";
 import { Experiences } from "../sources/DataTypes";
 import TimeGroup from "../components/TimeGroup";
 
-type PositionProps = { name: string, started: Timed, ended?: Timed };
+type PositionProps = { name: string, started: DateDescriptor, ended?: DateDescriptor };
 type ExperienceProps = { place: { name: string, position: PositionProps[] } };
 
 const Job = ({place}: ExperienceProps) => {
     const items = place.position
-        .map(position => ({name: position.name, date: position.started}));
+        .reverse()
+        .map(position => ({ content: position.name, date: position.started }));
 
     const title = place.name
         .split('/')

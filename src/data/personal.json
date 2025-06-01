@@ -16,15 +16,15 @@
     "url": "https://www.linkedin.com/in/gabryelarm/"
   },
   {
-    "icon": "location",
-    "name": "Telegram",
-    "value": "@Megamiun",
-    "url": "http://t.me/megamiun"
-  },
-  {
     "icon": "fork",
     "name": "Github",
     "value": "Megamiun",
     "url": "https://github.com/Megamiun"
+  },
+  {
+    "icon": "home",
+    "name": "Site",
+    "value": "gabryel.com.br",
+    "url": "https://www.gabryel.com.br"
   }
 ]

@@ -4,53 +4,43 @@
     "skills": [
       {
         "name": "Kotlin",
-        "level": 5,
-        "workedWith": true
+        "level": 5
       },
       {
         "name": "Java",
-        "level": 4,
-        "workedWith": true
+        "level": 4
       },
       {
         "name": "Typescript",
-        "level": 3,
-        "workedWith": true
+        "level": 3
       },
       {
         "name": "Javascript",
-        "level": 3,
-        "workedWith": true
-      },
-      {
-        "name": "Rust",
-        "level": 2,
-        "workedWith": false
-      },
-      {
-        "name": "Scala",
-        "level": 2,
-        "workedWith": true
-      },
-      {
-        "name": "Ruby",
-        "level": 2,
-        "workedWith": true
-      },
-      {
-        "name": "Python",
-        "level": 2,
-        "workedWith": false
-      },
-      {
-        "name": "C",
-        "level": 2,
-        "workedWith": false
+        "level": 3
       },
       {
         "name": "Bash",
-        "level": 2,
-        "workedWith": false
+        "level": 3
+      },
+      {
+        "name": "Python",
+        "level": 2
+      },
+      {
+        "name": "Rust",
+        "level": 2
+      },
+      {
+        "name": "Scala",
+        "level": 2
+      },
+      {
+        "name": "C",
+        "level": 2
+      },
+      {
+        "name": "Ruby",
+        "level": 2
       }
     ]
   },
@@ -59,6 +49,10 @@
     "skills": [
       {
         "name": "Spring",
+        "level": 5
+      },
+      {
+        "name": "JUnit",
         "level": 5
       },
       {
@@ -75,19 +69,23 @@
       },
       {
         "name": "Postgres",
-        "level": 3
+        "level": 4
       },
       {
         "name": "MySQL",
         "level": 3
       },
       {
-        "name": "Kubernetes",
+        "name": "AWS",
+        "level": 3
+      },
+      {
+        "name": "Windows",
         "level": 2
       },
       {
-        "name": "AWS",
-        "level": 3
+        "name": "Kubernetes",
+        "level": 2
       },
       {
         "name": "Azure",
@@ -95,8 +93,7 @@
       },
       {
         "name": "DynamoDB",
-        "level": 1,
-        "workedWith": true
+        "level": 1
       }
     ]
   },

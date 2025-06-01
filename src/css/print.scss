@@ -6,10 +6,6 @@
     margin: 0 auto;
   }
 
-  .exp-level .dot {
-    border: 1px constants.$print-font-color solid;
-  }
-
   #jobs {
     break-inside: avoid;
     break-before: always;
@@ -42,6 +38,11 @@
   }
 
   @media (orientation: landscape) {
+    #picture-container {
+      width: 55%;
+      height: auto;
+    }
+
     #root {
       display: flex;
     }
@@ -73,6 +74,11 @@
   @media (orientation: portrait) {
     #info-panel {
       display: none;
+    }
+
+    #picture-container {
+      width: 40%;
+      height: auto;
     }
   }
 

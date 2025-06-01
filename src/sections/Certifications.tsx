@@ -6,6 +6,6 @@ import TimeGroup from "../components/TimeGroup";
 export default ({data}: { data: Certifications }) =>
     data.reverse().map(info =>
         <TimeGroup key={info.name}
-                   title={<Link value={info.name} url={info.url}/>}
-                   items={[{name: info.technology, date: info.date}]}/>
+                   title={info.technology}
+                   items={[{content: <Link value={info.name} url={info.url}/>, date: info.date}]}/>
     )
