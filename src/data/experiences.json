@@ -1,6 +1,7 @@
 [
   {
-    "name": "RiskOffice Consultoria Financeira/Aditus Assessoria e Sistemas",
+    "name": "Aditus Assessoria e Sistemas",
+    "location": "São Paulo, Brazil",
     "position": [
       {
         "name": "Systems Analyst - Full Stack - Intern",
@@ -40,7 +41,9 @@
     ]
   },
   {
-    "name": "Itaú/(via Concrete Desenvolvimento de Sistemas)",
+    "name": "Itaú",
+    "via": "Concrete Desenvolvimento de Sistemas",
+    "location": "São Paulo, Brazil",
     "position": [
       {
         "name": "Systems Analyst - Back-end",
@@ -72,6 +75,7 @@
   },
   {
     "name": "Gympass",
+    "location": "São Paulo, Brazil",
     "position": [
       {
         "name": "Developer Back-end - Senior",
@@ -103,6 +107,7 @@
   },
   {
     "name": "Lian Lian Pagamentos",
+    "location": "São Paulo, Brazil",
     "position": [
       {
         "name": "Tech Lead",
@@ -134,7 +139,9 @@
     ]
   },
   {
-    "name": "ASML/(via WAES)",
+    "name": "ASML",
+    "via": "WAES",
+    "location": "Eindhoven, Netherlands",
     "position": [
       {
         "name": "Developer Back-end - Senior",
@@ -145,7 +152,7 @@
       }
     ],
     "workedOn": "A data analysis system for the lithography giant, which allows users to visualize the results of their work through in-detail charts and statistics. Other than that, I worked directly on improvements on test frameworks and back-end speed.",
-    "lessonsLearnt": "Working in ASML, I found myself observing processes and optimizing developer experience, which created measurable quality of life changes to the developers day to day work.",
+    "lessonsLearnt": "Working in ASML, I found myself observing processes and optimizing developer experience, which created measurable quality of life changes to the developers day to day work. Also, another lesson was how to function well in a multicultural environment.",
     "technologies": [
       "Java (8, 11, 17)",
       "Spring Boot",

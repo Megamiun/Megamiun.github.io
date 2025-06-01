@@ -9,7 +9,7 @@ const Item = ({info}: InfoProps) =>
     <div className="block-wrapper" key={info.name}>
         <p className="item-icon">{info.icon && includeSVG(info.icon)}</p>
         <p className="item-title">{info.name}: </p>
-        <p><Link {...info} /></p>
+        <Link {...info} />
     </div>
 
 export default ({data}: { data: Personal }) =>

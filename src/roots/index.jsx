@@ -33,7 +33,7 @@ createRoot(document.getElementById('root')).render(
                 <Icons.siteQrCode id="qr-code" />
             </div>
 
-            <Category>
+            <Category id="about-panel">
                 <p id="name" className="category-title">Gabryel<br/>Monteiro</p>
                 {env.description.map(line => <p key={line}>{line}</p>)}
             </Category>

@@ -3,22 +3,27 @@ import { DateDescriptor, describeDate } from "../helpers/time";
 import { Experiences } from "../sources/DataTypes";
 
 interface Experience {
-    name: string;
-    workedOn: string;
-    lessonsLearnt: string;
-    technologies: string[],
-    position: Position[];
+    name: string
+    via?: string
+    location: string
+    workedOn: string
+    lessonsLearnt: string
+    technologies: string[]
+    position: Position[]
 }
 
 interface Position {
-    started: DateDescriptor;
-    ended?: DateDescriptor;
+    name: string
+    started: DateDescriptor
+    ended?: DateDescriptor
 }
 
 const describeDuration = (experience: Experience) => {
     const positions = experience.position;
-    const start = positions.map(position => position.started).sort()[0]
-    const end = positions.map(position => position.ended).sort()[0]
+    const start = positions[0].started;
+
+    const lastPosition = positions[positions.length - 1];
+    const end = lastPosition.ended;
 
     if (!end)
         return `${describeDate(start)} - ongoing`
@@ -28,10 +33,20 @@ const describeDuration = (experience: Experience) => {
 
 const ExperienceItem = ({experience}: { experience: Experience }) => (
     <section className="category unbreakable">
-        <p className="category-title">{experience.name.replace("/", " ")}</p>
+        <p className="category-title">
+            {experience.name}
+            {experience.via && ` (Via ${experience.via})`}
+            <span className="end">{experience.location}</span>
+        </p>
+
+        <p className="category-description">
+            <b>As</b>: {experience.position[0].name}
+        </p>
+
         <p className="category-description">
             <b>During</b>: {describeDuration(experience)}
         </p>
+
         <p className="category-description">
             <b>Worked on</b>: {experience.workedOn}
         </p>

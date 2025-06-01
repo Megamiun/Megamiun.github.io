@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+#only-print {
+  display: none;
+}
+
 #picture-container {
   display: block;
   margin: 0 auto;
@@ -21,6 +25,14 @@ body {
     display: none;
     aspect-ratio: 1/1;
   }
+}
+
+#personal-panel, #small-info-panel {
+  padding-left: constant(safe-area-inset-left);
+}
+
+#professional-panel {
+  padding-right: constant(safe-area-inset-right);
 }
 
 #root > section {

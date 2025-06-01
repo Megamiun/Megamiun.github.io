@@ -6,12 +6,10 @@
     margin: 0 auto;
   }
 
-  #personal-panel, #small-info-panel {
-    padding-left: constant(safe-area-inset-left);
-  }
-
-  #professional-panel {
-    padding-right: constant(safe-area-inset-right);
+  @media(max-width: constants.$experience-breakpoint) {
+    #experiences {
+      display: none;
+    }
   }
 
   @media (min-width: constants.$small-screen-breakpoint) {
@@ -34,12 +32,6 @@
     #picture-container {
       width: 55%;
       height: auto;
-    }
-  }
-
-  @media(max-width: constants.$smaller-screen-breakpoint) {
-    #personal-panel {
-      flex: 2 0 0;
     }
   }
 

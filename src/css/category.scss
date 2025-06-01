@@ -12,11 +12,14 @@
     text-transform: uppercase;
     font-weight: bold;
 
-    .right-aligned {
-      display: inline;
+    .end {
       font-weight: normal;
-      align-self: end;
+      float: right;
     }
+  }
+
+  .category-description {
+    text-align: justify;
   }
 
   .item-icon {
@@ -49,11 +52,11 @@
 }
 
 #experiences {
-  width: 35em;
+  min-width: 28em;
 }
 
 #education {
-  width: 35em;
+  min-width: 25em;
 }
 
 #skills > .category {
