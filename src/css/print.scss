@@ -1,0 +1,82 @@
+@use "constants";
+
+@media print {
+  #qr-code {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .exp-level .dot {
+    border: 1px constants.$print-font-color solid;
+  }
+
+  #jobs {
+    break-inside: avoid;
+    break-before: always;
+
+    > .category {
+      width: 80%;
+    }
+
+    .multi {
+      .category {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .category {
+    margin: 0;
+    padding: 12px 10px;
+  }
+
+  .multi {
+    margin: 0;
+    padding: 0 6px;
+  }
+
+  .category > .multi {
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (orientation: landscape) {
+    #root {
+      display: flex;
+    }
+
+    #personal-panel {
+      width: 25%;
+      height: 100vh;
+
+      position: fixed;
+      left: 0;
+    }
+
+    #professional-panel {
+      margin: 0 0 0 25%;
+      padding: 0;
+
+
+      > .multi {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    #small-info-panel {
+      display: none;
+    }
+  }
+
+  @media (orientation: portrait) {
+    #info-panel {
+      display: none;
+    }
+  }
+
+  @page {
+    margin: 0;
+  }
+}

@@ -1,0 +1,38 @@
+@use "constants";
+
+#personal-panel, #small-info-panel {
+  background-color: constants.$left-color;
+
+  svg {
+    fill: constants.$left-font-color;
+  }
+
+  * {
+    color: constants.$left-font-color;
+  }
+}
+
+#professional-panel {
+  background-color: constants.$right-color;
+  color: constants.$right-font-color;
+
+  * {
+    color: constants.$right-font-color;
+  }
+}
+
+.circle {
+  border-color: constants.$highlight-color;
+}
+
+.exp-level .dot {
+  border: 1px constants.$highlight-color solid;
+
+  &.active {
+    background-color: constants.$highlight-color;
+  }
+}
+
+.category .category-title {
+  border-bottom-color: constants.$highlight-color;
+}

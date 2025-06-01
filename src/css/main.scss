@@ -1,0 +1,47 @@
+@use "constants";
+
+* {
+  max-width: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: constants.$font-size;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root > section {
+  padding: 20px 0;
+}
+
+#qr-code, #avatar {
+  aspect-ratio: 1/1;
+  display: none;
+}
+
+p, a {
+  margin: constants.$p-vertical-margin 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#name {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.circle {
+  border: 3px solid;
+  border-radius: 50%;
+}
+
+.block-wrapper {
+  margin: constants.$p-vertical-margin 0;
+
+  * {
+    display: inline;
+  }
+}

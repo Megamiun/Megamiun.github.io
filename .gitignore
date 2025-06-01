@@ -3,3 +3,8 @@ _site
 .jekyll-metadata
 .jekyll-cache
 .history
+
+dist
+node_modules
+
+.idea

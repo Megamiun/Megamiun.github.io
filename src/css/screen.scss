@@ -1,0 +1,56 @@
+@use "constants";
+
+@media screen {
+  #avatar {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #personal-panel, #small-info-panel {
+    padding-left: constant(safe-area-inset-left);
+  }
+
+  #professional-panel {
+    padding-right: constant(safe-area-inset-right);
+  }
+
+  @media (min-width: constants.$small-screen-breakpoint) {
+    #root {
+      display: flex;
+    }
+
+    #personal-panel {
+      flex: 1 0 0;
+    }
+
+    #professional-panel {
+      flex: 3 0 0;
+    }
+
+    #small-info-panel {
+      display: none;
+    }
+
+    #avatar {
+      width: 55%;
+      height: auto;
+    }
+  }
+
+  @media(max-width: constants.$smaller-screen-breakpoint) {
+    #personal-panel {
+      flex: 2 0 0;
+    }
+  }
+
+  @media (max-width: constants.$small-screen-breakpoint) {
+    #info-panel {
+      display: none;
+    }
+
+    #avatar {
+      width: 40%;
+      height: auto;
+    }
+  }
+}

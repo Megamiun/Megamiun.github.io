@@ -1,26 +1,17 @@
----
-layout: main
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gabryel Monteiro</title>
 
-<section id="personal-panel" >
-    <img id="avatar" class="circle" src="img/avatar.jpg" ></img>
-    <img id="qr-code" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=https://www.gabryel.com.br&choe=UTF-8" ></img>
-    {% include category.html module="personal.html" %}
-
-    <section id="info-panel" >
-        {% include category.html module="info.html" %}
-    </section>
-</section>
-
-<section id="professional-panel" >
-    <section id="life" class="multi" >
-        {% include category.html module="academics.html" id="academics" %}
-        {% include category.html module="experiences.html" id="experiences" %}
-    </section>
-    {% include category.html module="skills.html" %}
-    {% include category.html module="jobs.html" id="jobs" %}
-</section>
-
-<section id="small-info-panel" >
-    {% include category.html module="info.html" %}
-</section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="author" content="Gabryel Monteiro">
+    <meta property="og:type" content="website">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="src/roots/index.jsx"></script>
+  </body>
+</html>

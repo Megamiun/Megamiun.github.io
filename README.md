@@ -1,7 +1,13 @@
 # Gabryel Monteiro
 
-Projeto de currículo de Gabryel Monteiro. Produzido utilizando-se Jekyll.
+Gabryel's CV. Created using React
 
-## Créditos
+## TODO
+- [ ] Check print version
+  - [ ] Have a horizontal layout
+  - [ ] Have a vertical layout
+- [ ] Setup GH Page
 
-* **Ícones** - [Open-Iconic](https://github.com/iconic/open-iconic)
+## Assets
+
+* **Icons** - [Open-Iconic](https://github.com/iconic/open-iconic)
