@@ -49,7 +49,7 @@ createRoot(document.getElementById('root')).render(
                 <Category id="experiences" title="Experiences"><Experiences data={experiences}/></Category>
             </section>
             <Category id="skills" title="Skills"><Skills data={skills} limit={8} /></Category>
-            <Category id="jobs" title="Jobs"><Jobs data={experiences}/></Category>
+            <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
         </section>
 
         <section id="small-info-panel">

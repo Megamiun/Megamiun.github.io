@@ -5,43 +5,58 @@
     background-color: constants.$right-color;
   }
 
-  #qr-code {
-    display: inline;
-    margin: 0 auto;
-  }
-
   .unbreakable {
     break-inside: avoid;
   }
 
-  #jobs {
-    break-inside: avoid;
+  #personal-panel, #professional-panel {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
 
+  #jobs {
     > .category {
       width: 80%;
     }
 
     .multi {
+      .category:first-of-type {
+        margin-top: 0;
+        padding-top: 0;
+      }
+
       .category {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
       }
     }
   }
 
-  .category {
-    margin: 0;
-    padding: 12px 10px;
+  #skills {
+    break-before: auto;
+    break-inside: avoid;
+
+    > .category {
+      break-inside: avoid;
+      width: 25%;
+    }
   }
 
-  .multi {
+  #root > .category {
     margin: 0;
-    padding: 0 6px;
+    padding: 2vh 2vw;
   }
 
-  .category > .multi {
-    margin: 0;
-    padding: 0;
+  .category-title {
+    break-inside: avoid;
+    margin-bottom: 10px;
+  }
+
+  .category-title::after {
+    content: "";
+    display: block;
+    height: 15vh;
+    margin-bottom: -15vh;
   }
 
   #small-info-panel {
@@ -51,9 +66,9 @@
   @media (orientation: landscape) {
     #personal-panel {
       width: 25%;
-      height: 95vh;
+      height: 100vh;
 
-      position: absolute;
+      position: fixed;
       left: 0;
     }
 
@@ -61,45 +76,74 @@
       margin: 10vh auto;
       width: 50%;
       height: auto;
-    }
 
-    #root {
-      display: flex;
-    }
-
-    #personal-panel {
-      width: 25%;
-      height: 100vh;
-
-      position: fixed;
-      left: 0;
+      #qr-code {
+        display: inline;
+        margin: 0 auto;
+      }
     }
 
     #professional-panel {
-      margin: 0 0 0 25%;
+      margin: 0 0 0 27%;
       padding: 0;
-
 
       > .multi {
         padding: 0;
         margin: 0;
       }
     }
+
+    #education {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      > .category {
+        width: 100%;
+        display: inline;
+      }
+    }
+
+    #experiences, #education {
+      width: 45%;
+    }
+
+    #jobs {
+      padding-top: 5%;
+
+      .category:nth-of-type(4) > .category-title {
+        padding-top: 5%;
+      }
+    }
   }
 
   @media (orientation: portrait) {
-    #experiences {
+    #experiences, #picture-container {
       display: none;
     }
 
-    #picture-container {
-      width: 30%;
-      height: auto;
+    #education {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+
+      > .category {
+        padding: 0;
+        margin: 0 2vw;
+        width: 45%;
+        display: inline;
+      }
+    }
+
+    #jobs {
+      .category:nth-of-type(2) > .category-title {
+        padding-top: 5%;
+      }
     }
   }
 
   @page {
-    padding: 0;
-    margin: 0;
+    padding: 0 0;
   }
 }

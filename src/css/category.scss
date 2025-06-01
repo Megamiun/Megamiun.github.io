@@ -51,12 +51,8 @@
   }
 }
 
-#experiences {
-  min-width: 28em;
-}
-
-#education {
-  min-width: 25em;
+#experiences, #education {
+  min-width: 45%;
 }
 
 #skills > .category {
@@ -120,6 +116,7 @@
 
   p {
     display: inline;
+    margin-right: 8px;
   }
 
   .dot {
