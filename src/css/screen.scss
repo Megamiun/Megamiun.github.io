@@ -6,17 +6,11 @@
     margin: 0 auto;
   }
 
-  @media(max-width: constants.$experience-breakpoint) {
-    #experiences {
-      display: none;
-    }
+  #root {
+    display: flex;
   }
 
   @media (min-width: constants.$small-screen-breakpoint) {
-    #root {
-      display: flex;
-    }
-
     #personal-panel {
       flex: 1 0 0;
     }
@@ -28,21 +22,29 @@
     #small-info-panel {
       display: none;
     }
+  }
 
-    #picture-container {
-      width: 55%;
-      height: auto;
+  @media (max-width: constants.$experience-breakpoint) {
+    #personal-panel {
+      flex: 1 0 0;
+    }
+
+    #professional-panel {
+      flex: 2 0 0;
+    }
+
+    #experiences {
+      display: none;
     }
   }
 
   @media (max-width: constants.$small-screen-breakpoint) {
-    #info-panel {
-      display: none;
+    #root {
+      display: inline;
     }
 
-    #picture-container {
-      width: 40%;
-      height: auto;
+    #info-panel {
+      display: none;
     }
   }
 }

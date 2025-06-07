@@ -5,9 +5,11 @@ import { Experiences } from "../sources/DataTypes";
 interface Experience {
     name: string
     via?: string
+    about: string
     location: string
     workedOn: string
     lessonsLearnt: string
+    bulletPoints: string[]
     technologies: string[]
     position: Position[]
 }
@@ -32,36 +34,52 @@ const describeDuration = (experience: Experience) => {
 }
 
 const ExperienceItem = ({experience}: { experience: Experience }) => (
-    <section className="category unbreakable">
-        <p className="category-title">
+    <section id={experience.name} className="category job">
+        <p className="category-title h2">
             {experience.name}
             {experience.via && ` (Via ${experience.via})`}
-            <span className="end">{experience.location}</span>
+            <span className="end"><span hidden> - </span>{experience.location}<span hidden> - </span></span>
         </p>
 
         <p className="category-description">
-            <b>As</b>: {experience.position[0].name}
+            {experience.about}.
         </p>
 
         <p className="category-description">
-            <b>During</b>: {describeDuration(experience)}
-        </p>
-
-        <p className="category-description">
-            <b>Worked on</b>: {experience.workedOn}
-        </p>
-
-        <p className="category-description">
-            <b>Lessons Learnt</b>: {experience.lessonsLearnt}
+            <b>{experience.position[0].name}</b> | {describeDuration(experience)}
         </p>
 
         <p className="category-description">
             <b>Technologies</b>: {experience.technologies.join(", ")}
         </p>
+
+        <ul className="category-description job-description">
+            {experience.bulletPoints.map(point => <li key={point}>{point}.</li>)}
+        </ul>
     </section>
 );
 
+function getSorted(data: Experiences) {
+    const byStartDateDesc = (lhs: Experience, rhs: Experience) =>
+        rhs.position[0].started.year - lhs.position[0].started.year;
+
+    const positionByStartDateDesc = (lhs: Position, rhs: Position) =>
+        rhs.started.year - lhs.started.year;
+
+    const clone = structuredClone(data)
+
+    clone.sort(byStartDateDesc)
+    clone.forEach(experience =>
+        experience.position.sort(positionByStartDateDesc)
+    )
+
+    return clone;
+}
+
 export default ({data}: { data: Experiences }) =>
     <section className="multi">
-        {data.map(experience => <ExperienceItem key={experience.name} experience={experience} />)}
+        {
+            getSorted(data)
+                .map(experience => <ExperienceItem key={experience.name} experience={experience} />)
+        }
     </section>

@@ -4,43 +4,53 @@
     "skills": [
       {
         "name": "Kotlin",
-        "level": 5
+        "level": 5,
+        "textualLevel": "Expert"
       },
       {
         "name": "Java",
-        "level": 4
+        "level": 4,
+        "textualLevel": "Advanced"
       },
       {
         "name": "Typescript",
-        "level": 3
+        "level": 3,
+        "textualLevel": "Intermediate"
       },
       {
         "name": "Javascript",
-        "level": 3
-      },
-      {
-        "name": "Bash",
-        "level": 3
+        "level": 3,
+        "textualLevel": "Intermediate"
       },
       {
         "name": "Python",
-        "level": 2
+        "level": 3,
+        "textualLevel": "Intermediate"
+      },
+      {
+        "name": "Bash",
+        "level": 3,
+        "textualLevel": "Intermediate"
       },
       {
         "name": "Rust",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Beginner"
       },
       {
         "name": "Scala",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Beginner"
       },
       {
         "name": "C",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Beginner"
       },
       {
         "name": "Ruby",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Beginner"
       }
     ]
   },
@@ -49,51 +59,63 @@
     "skills": [
       {
         "name": "Spring",
-        "level": 5
+        "level": 5,
+        "textualLevel": "Expert"
       },
       {
         "name": "JUnit",
-        "level": 5
+        "level": 5,
+        "textualLevel": "Expert"
       },
       {
         "name": "Git",
-        "level": 4
+        "level": 4,
+        "textualLevel": "Advanced"
       },
       {
         "name": "Linux",
-        "level": 4
+        "level": 4,
+        "textualLevel": "Advanced"
       },
       {
         "name": "Terminal",
-        "level": 4
+        "level": 4,
+        "textualLevel": "Advanced"
       },
       {
         "name": "Postgres",
-        "level": 4
-      },
-      {
-        "name": "MySQL",
-        "level": 3
+        "level": 4,
+        "textualLevel": "Advanced"
       },
       {
         "name": "AWS",
-        "level": 3
+        "level": 3,
+        "textualLevel": "Intermediate"
+      },
+      {
+        "name": "MySQL",
+        "level": 3,
+        "textualLevel": "Intermediate"
       },
       {
         "name": "Windows",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Beginner"
       },
       {
         "name": "Kubernetes",
-        "level": 2
-      },
-      {
-        "name": "Azure",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Beginner"
       },
       {
         "name": "DynamoDB",
-        "level": 1
+        "level": 1,
+        "textualLevel": "Beginner"
+      },
+      {
+        "name": "Azure",
+        "level": 1,
+        "textualLevel": "Beginner"
       }
     ]
   },
@@ -102,19 +124,23 @@
     "skills": [
       {
         "name": "Portuguese",
-        "level": 5
+        "level": 5,
+        "textualLevel": "Native"
       },
       {
         "name": "English",
-        "level": 4
+        "level": 4,
+        "textualLevel": "Fluent"
       },
       {
         "name": "Spanish",
-        "level": 2
+        "level": 2,
+        "textualLevel": "Intermediate"
       },
       {
         "name": "Dutch",
-        "level": 1
+        "level": 1,
+        "textualLevel": "Beginner"
       }
     ]
   }

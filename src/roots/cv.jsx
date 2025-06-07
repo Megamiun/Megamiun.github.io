@@ -5,13 +5,10 @@ import Category from "../components/Category";
 
 import Academics from "../sections/Academics";
 import Certifications from "../sections/Certifications";
-import Experiences from "../sections/Experiences";
 import Highlights from "../sections/Highlights";
 import Skills from "../sections/Skills";
 import Info from "../sections/Info";
 import Jobs from "../sections/Jobs";
-
-import { Icons } from "../helpers/icons";
 
 import personal from "../data/personal.json";
 import academics from "../data/academics.json";
@@ -32,11 +29,6 @@ import "../css/colors.scss"
 createRoot(document.getElementById('root')).render(
     <>
         <section id="personal-panel">
-            <div id="picture-container">
-                <img id="avatar" className="circle" src="/images/avatar.jpg"/>
-                <Icons.siteQrCode id="qr-code" />
-            </div>
-
             <Category id="about-panel">
                 <p id="name" className="category-title">Gabryel<br/>Monteiro</p>
                 {env.description.map(line => <p key={line}>{line}</p>)}
@@ -46,19 +38,12 @@ createRoot(document.getElementById('root')).render(
 
         <section id="professional-panel">
             <section id="life" className="multi">
-                <section id="education">
-                    <Category id="academics" title="Academics"><Academics data={academics}/></Category>
-                    <Category id="certifications" title="Certifications"><Certifications data={certifications}/></Category>
-                </section>
-                <Category id="experiences" title="Experiences"><Experiences data={experiences}/></Category>
+                <Category id="academics" title="Academics"><Academics data={academics}/></Category>
+                <Category id="certifications" title="Certifications"><Certifications data={certifications}/></Category>
             </section>
-            <Category id="skills" title="Skills"><Skills data={skills} limit={8} /></Category>
+            <Category id="skills" title="Skills"><Skills data={skills} preferText limit={8} /></Category>
             <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
-            <Category id="extras" title="Hightlights"><Highlights data={highlights}/></Category>
-        </section>
-
-        <section id="small-info-panel">
-            <Category title="Personal"><Info data={personal}/></Category>
+            <Category id="extras" title="Other Activities"><Highlights data={highlights}/></Category>
         </section>
     </>
 )

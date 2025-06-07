@@ -1,0 +1,34 @@
+
+#personal-panel, #small-info-panel {
+  padding-left: constant(safe-area-inset-left);
+}
+
+#professional-panel {
+  padding-right: constant(safe-area-inset-right);
+}
+
+#jobs > .multi > .category {
+  width: 100%;
+}
+
+#experiences, #education {
+  min-width: 45%;
+}
+
+#skills > .category {
+  width: 18em;
+}
+
+#jobs {
+  > .category {
+    width: 36em;
+  }
+
+  .job-description {
+    margin: 1em auto;
+  }
+}
+
+#extras .multi-grid > .category {
+  min-width: 20em;
+}
