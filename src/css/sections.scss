@@ -1,4 +1,3 @@
-
 #personal-panel, #small-info-panel {
   padding-left: constant(safe-area-inset-left);
 }
@@ -15,13 +14,32 @@
   min-width: 45%;
 }
 
-#skills > .category {
-  width: 18em;
+#skills .multi > .category {
+  max-width: 18em;
 }
 
 #jobs {
   > .category {
     width: 36em;
+  }
+
+  .job {
+    .category-title {
+      position: relative;
+
+      .end {
+        font-weight: normal;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .category-title img {
+    margin-right: 0.5em;
+    height: 1.5em;
+    width: auto;
   }
 
   .job-description {

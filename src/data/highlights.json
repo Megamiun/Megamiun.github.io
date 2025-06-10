@@ -6,6 +6,11 @@
     "icon": "document"
   },
   {
+    "title": "Kotlin Course at WAES",
+    "description": "Kotlin course for internal consultants covering basic to intermediate Kotlin concepts via Kotlin Notebooks",
+    "icon": "person"
+  },
+  {
     "title": "Understanding Reactor Building (Non)Blocks",
     "url": "https://medium.com/wearewaes/understanding-reactor-building-non-blocks-c671f7034e26",
     "description": "Article explaining advantages, disadvantages and operators for the Spring Reactor framework",
@@ -16,11 +21,6 @@
     "url": "https://github.com/Megamiun/advent-of-code",
     "description": "Solutions for Advent of Code solutions over the year, mostly written in Kotlin or Rust",
     "icon": "code"
-  },
-  {
-    "title": "Kotlin Course at WAES",
-    "description": "Kotlin course for internal consultants covering basic to intermediate Kotlin concepts via Kotlin Notebooks",
-    "icon": "person"
   },
   {
     "title": "This CV Repository",

@@ -30,7 +30,7 @@ createRoot(document.getElementById('root')).render(
     <>
         <section id="personal-panel">
             <Category id="about-panel">
-                <p id="name" className="category-title">Gabryel<br/>Monteiro</p>
+                <p id="name" className="category-title">Gabryel Monteiro</p>
                 {env.description.map(line => <p key={line}>{line}</p>)}
             </Category>
             <Category id="info-panel" title="Personal"><Info data={personal}/></Category>
@@ -43,7 +43,7 @@ createRoot(document.getElementById('root')).render(
             </section>
             <Category id="skills" title="Skills"><Skills data={skills} preferText limit={8} /></Category>
             <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
-            <Category id="extras" title="Other Activities"><Highlights data={highlights}/></Category>
+            <Category id="extras" title="Highlights"><Highlights data={highlights}/></Category>
         </section>
     </>
 )

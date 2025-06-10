@@ -23,11 +23,6 @@
     .item-icon {
       font-size: 0.95em;
     }
-
-    .end {
-      font-weight: normal;
-      float: right;
-    }
   }
 
   .category-description {
@@ -55,7 +50,7 @@
 .multi {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   width: 100%;
 
   > * {

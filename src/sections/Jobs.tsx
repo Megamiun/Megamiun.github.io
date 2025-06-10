@@ -22,10 +22,10 @@ interface Position {
 
 const describeDuration = (experience: Experience) => {
     const positions = experience.position;
-    const start = positions[0].started;
-
     const lastPosition = positions[positions.length - 1];
-    const end = lastPosition.ended;
+
+    const start = lastPosition.started;
+    const end = positions[0].ended;
 
     if (!end)
         return `${describeDate(start)} - ongoing`
@@ -34,7 +34,7 @@ const describeDuration = (experience: Experience) => {
 }
 
 const ExperienceItem = ({experience}: { experience: Experience }) => (
-    <section id={experience.name} className="category job">
+    <section id={experience.name} className="category job unbreakable">
         <p className="category-title h2">
             {experience.name}
             {experience.via && ` (Via ${experience.via})`}

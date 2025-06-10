@@ -14,11 +14,21 @@
     padding: 2% !important;
   }
 
-  #professional-panel > section {
-    padding-top: 2%;
+  #life, #skills, #extras {
+    padding-top: 24px;
+  }
+
+  #experiences, #education {
+    margin: 0;
+  }
+
+  #academics {
+    margin-top: 0;
   }
 
   #jobs {
+    margin-top: 30vh;
+
     .multi {
       .category:first-of-type {
         margin-top: 0;
@@ -32,11 +42,10 @@
     }
   }
 
-  #skills {
-    > .category {
-      margin-top: 0;
-      width: 25%;
-    }
+  #skills .multi > .category {
+    padding-top: 0;
+    margin-top: 0;
+    width: 25%;
   }
 
   #root > .category {
@@ -57,13 +66,6 @@
     }
   }
 
-  .category-title::after {
-    content: "";
-    display: block;
-    height: 15vh;
-    margin-bottom: -15vh;
-  }
-
   #small-info-panel {
     display: none;
   }
@@ -77,14 +79,14 @@
     > .category {
       padding: 0;
       margin: 0 2vw;
-      width: 45%;
+      min-width: 40%;
       display: inline;
     }
   }
 
   @media (orientation: landscape) {
     #personal-panel {
-      width: 28%;
+      width: 25%;
       height: 100vh;
 
       position: fixed;
@@ -93,29 +95,32 @@
 
     #picture-container {
       margin: 10vh auto;
-      width: 50%;
+      max-width: 50%;
       height: auto;
 
       #qr-code {
         display: inline;
-        margin: 0 auto;
+        margin: 0 0;
       }
     }
 
     #professional-panel {
-      margin: 0 0 0 30%;
+      margin: 0 0 0 27%;
       padding: 0;
-
-      > .multi {
-        padding: 0;
-        margin: 0;
-      }
     }
 
     #jobs {
-      .category:nth-of-type(4) > .category-title {
+      > .category-title {
         padding-top: 5%;
       }
+
+      .category:nth-of-type(3) > .category-title {
+        padding-top: 5%;
+      }
+    }
+
+    #extras {
+      padding-top: 5%;
     }
   }
 
@@ -126,11 +131,11 @@
 
     #jobs {
       > .category-title {
-        padding-top: 4%;
+        padding-top: 6%;
       }
 
       .category:nth-of-type(4) > .category-title {
-        padding-top: 7.5%;
+        padding-top: 6%;
       }
     }
   }

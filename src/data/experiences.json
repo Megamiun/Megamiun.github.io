@@ -68,7 +68,7 @@
     "lessonsLearnt": "My second job, on a software consulting company, the first one on a bigger project, working for a very secret, very big financial institution, there I started learning about working in microservices and the art of distributed systems, there too I experienced Scrum and learned better how to talk with clients",
     "bulletPoints": [
       "Delivered APIs under the \"Payments\" team for a credit card white-label app, serving more than a million users currently",
-      "Developed a Gradle Plugin to simplify build configuration for 10+ microservices",
+      "Developed a Gradle Plugin to simplify build configuration for over 10 microservices, reducing build configuration by over 80%",
       "Designed API request-signing mechanisms using pinned certificates in collaboration with frontend engineers",
       "Implemented internal Artifactory repositories to enable custom shared libraries"
     ],
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "name": "Gympass",
+    "name": "Wellhub (formely Gympass)",
     "location": "São Paulo, Brazil",
     "about": "Global fitness and wellness platform connecting employees with gyms, studios, and digital fitness partners",
     "position": [
