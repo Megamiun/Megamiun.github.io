@@ -173,6 +173,10 @@
         "started": {
           "month": 2,
           "year": 2023
+        }, 
+        "ended": {
+          "month": 7,
+          "year": 2025
         }
       }
     ],
@@ -199,6 +203,35 @@
       "Docker",
       "JUnit",
       "Spark"
+    ]
+  },
+  {
+    "name": "WAES",
+    "location": "Eindhoven, Netherlands",
+    "about": "Technology consultancy company based on the Netherlands.",
+    "position": [
+      {
+        "name": "Senior Backend Developer",
+        "started": {
+          "month": 2,
+          "year": 2023
+        }
+      }
+    ],
+    "bulletPoints": [
+      "Developed a 16 hours Kotlin course and gave classes for 3 different groups",
+      "Developed a dynamic CV generator system, based on developer data. Inspired by this CV",
+      "Presented an open Kotlin Multiplatform talk, with working apps for Android, iOS and Web"
+    ],
+    "technologies": [
+      "Kotlin",
+      "Kotlin Multiplatform",
+      "Compose Multiplatform",
+      "Spring Boot",
+      "Node.js",
+      "Vue",
+      "PostgreSQL",
+      "Git"
     ]
   }
 ]

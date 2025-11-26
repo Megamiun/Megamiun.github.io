@@ -10,6 +10,16 @@
     break-inside: avoid;
   }
 
+  #info-panel > .content {
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+      margin: 5px 0px;
+      width: 50%;
+    }
+  }
+
   #personal-panel, #professional-panel {
     padding: 2% !important;
   }
@@ -27,7 +37,7 @@
   }
 
   #jobs {
-    margin-top: 30vh;
+    margin-top: 20vh;
 
     .multi {
       .category:first-of-type {

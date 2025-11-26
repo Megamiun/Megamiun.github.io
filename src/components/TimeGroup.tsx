@@ -2,12 +2,12 @@ import React, { ReactNode } from "react";
 import { DateDescriptor } from "../helpers/time";
 import TimeArrow from "./TimeArrow";
 
-export type TimedRowType = { content: string | ReactNode, date: DateDescriptor };
+export type TimedRowType = { content: string | ReactNode, date: DateDescriptor, endDate?: DateDescriptor };
 
-const TimeRow = ({content, date}: { content: string | ReactNode, date: DateDescriptor }) =>
+const TimeRow = ({content, date, endDate}: TimedRowType) =>
     <div className="timebox">
         <div className="timeline">
-            <TimeArrow date={date}/>
+            <TimeArrow date={date} endDate={endDate}/>
         </div>
         <div className="info">
             <p>{content}</p>
@@ -24,5 +24,5 @@ export default ({title, items}: { title: string | ReactNode, items: TimedRowType
                 <p className="item-title">{title}</p>
             </div>
         </div>
-        {items.map(row => <TimeRow key={row.content.toString()} content={row.content} date={row.date}/>)}
+        {items.map(row => <TimeRow key={row.content.toString()} content={row.content} date={row.date} endDate={row.endDate}/>)}
     </>

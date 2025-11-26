@@ -1,5 +1,5 @@
 import React from "react";
-import {Highlights, Skills} from "../sources/DataTypes";
+import {Highlights} from "../sources/DataTypes";
 import {Link} from "../components/Link";
 import {includeSVG} from "../helpers/icons";
 
@@ -8,8 +8,15 @@ type Highlight = { title: string, url?: string, description: string, icon: strin
 const HighlightSection = ({ highlight }: {highlight: Highlight}) =>
     <section className="category">
         <p className="category-title h2">
-            <span className="item-icon">{includeSVG(highlight.icon)}</span>
-            <Link value={highlight.title} url={highlight.url} />
+            <span>
+                <span className="item-icon">{includeSVG(highlight.icon)}</span>
+                <Link value={highlight.title} url={highlight.url} />
+            </span>
+            {
+                highlight.location != undefined ?
+                    <span>@ {highlight.location}</span>: 
+                    null
+            }
         </p>
         <p>{highlight.description}.</p>
     </section>

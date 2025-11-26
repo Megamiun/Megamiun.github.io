@@ -1,3 +1,5 @@
+@use "constants";
+
 #personal-panel, #small-info-panel {
   padding-left: constant(safe-area-inset-left);
 }
@@ -49,4 +51,10 @@
 
 #extras .multi-grid > .category {
   min-width: 20em;
+
+  .category-title {
+    display: flex;
+    flex-direction: column;
+    height: 2lh;
+  }
 }

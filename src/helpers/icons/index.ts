@@ -11,6 +11,7 @@ import mapMarker from './data/map-marker.svg?react'
 import person from './data/person.svg?react'
 import phone from './data/phone.svg?react'
 import siteQrCode from './data/site-qr-code.svg?react'
+import rss from './data/rss-alt.svg?react'
 import { createElement, FunctionComponent, SVGProps } from "react";
 
 export const Icons = {
@@ -27,6 +28,7 @@ export const Icons = {
     person,
     phone,
     siteQrCode,
+    rss,
 } as { [key: string]: FunctionComponent<SVGProps<SVGSVGElement>> }
 
 export const includeSVG = (name: string) => {

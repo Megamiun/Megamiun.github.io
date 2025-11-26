@@ -13,4 +13,6 @@ const Item = ({info, multi}: InfoProps) =>
     </div>
 
 export default ({data}: { data: Personal }) =>
-    data.map(info => <Item key={info.name} info={info}/>)
+    <div className="content">
+        {data.map(info => <Item key={info.name} info={info}/>)}
+    </div>

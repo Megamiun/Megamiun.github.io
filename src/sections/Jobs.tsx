@@ -60,15 +60,34 @@ const ExperienceItem = ({experience}: { experience: Experience }) => (
 );
 
 function getSorted(data: Experiences) {
-    const byStartDateDesc = (lhs: Experience, rhs: Experience) =>
-        rhs.position[0].started.year - lhs.position[0].started.year;
 
     const positionByStartDateDesc = (lhs: Position, rhs: Position) =>
         rhs.started.year - lhs.started.year;
 
+    const positionByEndDateDesc = (lhs: Position, rhs: Position) =>
+        rhs.ended.year - lhs.ended.year;
+
+    const byDateDesc = (lhs: Experience, rhs: Experience) => {
+        const leftPosition = lhs.position[0]
+        const rightPosition = rhs.position[0]
+
+        if (leftPosition.ended == undefined)
+            return -1
+
+        if (rightPosition.ended == undefined)
+            return 1
+
+        const endSort = positionByEndDateDesc(leftPosition, rightPosition)
+
+        if (endSort != 0)
+            return endSort
+        
+        return positionByStartDateDesc(leftPosition, rightPosition)
+    }
+    
     const clone = structuredClone(data)
 
-    clone.sort(byStartDateDesc)
+    clone.sort(byDateDesc)
     clone.forEach(experience =>
         experience.position.sort(positionByStartDateDesc)
     )

@@ -1,23 +1,30 @@
 [
   {
+    "title": "Kotlin Multiplatform Talk",
+    "location": "Server Side Chat - WAES",
+    "description": "Talk about the advantages and disavantages of Kotlin Multiplatform throughout different contexts",
+    "icon": "rss"
+  },
+  {
+    "title": "Kotlin Course",
+    "location": "WAES",
+    "description": "Kotlin course for internal consultants covering basic to intermediate Kotlin concepts via Kotlin Notebooks",
+    "icon": "person"
+  },
+  {
     "title": "Writing Expressive Tests",
     "url": "https://medium.com/wearewaes/writing-expressive-tests-2fef5d0c9b6b",
     "description": "Article about writing expressive tests using JUnit and Hamcrest or AssertJ",
     "icon": "document"
   },
   {
-    "title": "Kotlin Course at WAES",
-    "description": "Kotlin course for internal consultants covering basic to intermediate Kotlin concepts via Kotlin Notebooks",
-    "icon": "person"
-  },
-  {
-    "title": "Understanding Reactor Building (Non)Blocks",
+    "title": "Reactor Building Blocks",
     "url": "https://medium.com/wearewaes/understanding-reactor-building-non-blocks-c671f7034e26",
     "description": "Article explaining advantages, disadvantages and operators for the Spring Reactor framework",
     "icon": "document"
   },
   {
-    "title": "Advent of Code Implementations",
+    "title": "Advent of Code Solutions",
     "url": "https://github.com/Megamiun/advent-of-code",
     "description": "Solutions for Advent of Code solutions over the year, mostly written in Kotlin or Rust",
     "icon": "code"

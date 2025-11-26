@@ -3,14 +3,22 @@
     "name": "ETEC Martin Luther King",
     "class": "Mechatronics",
     "level": "Technical Certificate",
-    "started": 2010,
-    "ended": 2011
+    "started": {
+      "year": 2010
+    },
+    "ended": {
+      "year": 2011
+    }
   },
   {
     "name": "Universidade de São Paulo - USP",
     "class": "Information Systems",
     "level": "Bachelors Degree",
-    "started": 2012,
-    "ended": 2016
+    "started": {
+      "year": 2012
+    },
+    "ended": {
+      "year": 2016
+    }
   }
 ]

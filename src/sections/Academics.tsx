@@ -6,5 +6,5 @@ export default ({data}: { data: Academics }) =>
     data.reverse().map(info =>
         <TimeGroup key={info.name}
                    title={info.name}
-                   items={[{content: `${info.level} in ${info.class}`, date: { month: 1, year: info.started }}]}/>
+                   items={[{content: `${info.level} in ${info.class}`, date: info.started, endDate: info.ended }]}/>
     )
