@@ -43,7 +43,7 @@ createRoot(document.getElementById('root')).render(
             </section>
             <Category id="skills" title="Skills"><Skills data={skills} preferText limit={8} /></Category>
             <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
-            <Category id="extras" title="Highlights" unbreakable><Highlights data={highlights}/></Category>
+            <Category id="extras" title="Highlights"><Highlights data={highlights}/></Category>
         </section>
     </>
 )

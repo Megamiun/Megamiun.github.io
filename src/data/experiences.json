@@ -191,7 +191,7 @@
       "Designed tooling for developers to streamline repetitive manual actions"
     ],
     "technologies": [
-      "Java (8, 11, 17)",
+      "Java (8, 11, 17, 21)",
       "Spring Boot",
       "Typescript",
       "React",

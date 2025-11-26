@@ -61,6 +61,13 @@
   #root > .category {
     margin: 0;
     padding: 2vh 2vw;
+
+
+    p, li {
+      &:not(.item-title):not(.category-title) {
+        font-size: constants.$print-description-font-size;
+      }
+    }
   }
 
   .category-title {
@@ -144,7 +151,7 @@
         padding-top: 6%;
       }
 
-      .category:nth-of-type(4) > .category-title {
+      .category:nth-of-type(5) > .category-title {
         padding-top: 6%;
       }
     }

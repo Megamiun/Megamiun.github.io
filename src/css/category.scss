@@ -42,8 +42,10 @@
     font-weight: bold;
   }
 
-  p:not(.item-title):not(.category-title) {
-    font-size: constants.$description-font-size;
+  p, li {
+    &:not(.item-title):not(.category-title) {
+      font-size: constants.$description-font-size;
+    }
   }
 }
 
