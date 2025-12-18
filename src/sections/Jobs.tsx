@@ -42,11 +42,12 @@ const ExperienceItem = ({experience}: { experience: Experience }) => (
         </p>
 
         <p className="category-description">
-            {experience.about}.
+            <span hidden>{experience.name} - {experience.location} | </span>
+            <b>{experience.position[0].name}</b> | {describeDuration(experience)}
         </p>
 
         <p className="category-description">
-            <b>{experience.position[0].name}</b> | {describeDuration(experience)}
+            <b>About the company</b>: {experience.about}.
         </p>
 
         <p className="category-description">
@@ -96,7 +97,7 @@ function getSorted(data: Experiences) {
 }
 
 export default ({data}: { data: Experiences }) =>
-    <section className="multi">
+    <section className="content">
         {
             getSorted(data)
                 .map(experience => <ExperienceItem key={experience.name} experience={experience} />)

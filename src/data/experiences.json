@@ -22,12 +22,12 @@
           "year": 2016
         },
         "ended": {
-          "month": 10,
+          "month": 6,
           "year": 2018
         }
       }
     ],
-    "workedOn": "A service and website focused on allowing the user to follow the status of their financial wallets daily, automatically updated by consuming from a lot of varied resources and sites",
+    "workedOn": "A service and website focused on allowing the user to follow the status of their financial wallets daily, automatically updated by consuming from a lot of varied resources and sources",
     "lessonsLearnt": "My first job, on a financial consulting company, the place where I started to learn programming more profoundly. There I started to learn how to program and organize a system, that every choice has its costs and how to work in a team",
     "bulletPoints": [
       "Maintained backend and frontend services for financial assets management",
@@ -50,7 +50,7 @@
     "name": "Itaú",
     "via": "Concrete Solutions",
     "location": "São Paulo, Brazil",
-    "about": "Brazil’s largest private bank, where Concrete supported digital banking initiatives through agile software consulting",
+    "about": "Brazil’s largest private bank, where we supported digital banking initiatives through agile software consulting",
     "position": [
       {
         "name": "Backend Systems Analyst",
@@ -208,7 +208,7 @@
   {
     "name": "WAES",
     "location": "Eindhoven, Netherlands",
-    "about": "Technology consultancy company based on the Netherlands.",
+    "about": "Technology consultancy company based on the Netherlands",
     "position": [
       {
         "name": "Senior Backend Developer",
