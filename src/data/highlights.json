@@ -2,7 +2,7 @@
   {
     "title": "Kotlin Multiplatform Talk",
     "location": "Server Side Chat - WAES",
-    "description": "Talk about the advantages and disavantages of Kotlin Multiplatform throughout different contexts",
+    "description": "Talk about the advantages and disadvantages of Kotlin Multiplatform throughout different contexts",
     "icon": "rss"
   },
   {
@@ -26,7 +26,7 @@
   {
     "title": "Advent of Code Solutions",
     "url": "https://github.com/Megamiun/advent-of-code",
-    "description": "Solutions for Advent of Code solutions over the year, mostly written in Kotlin or Rust",
+    "description": "Solutions for Advent of Code over the years, mostly written in Kotlin or Rust",
     "icon": "code"
   },
   {

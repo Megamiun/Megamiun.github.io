@@ -9,7 +9,7 @@
 }
 
 #jobs > .content > .category {
-  width: 100%;
+  margin-right: 0;
 }
 
 #experiences, #education {
@@ -49,12 +49,16 @@
   }
 }
 
-#extras .multi-grid > .category {
-  min-width: 20em;
+#extras .multi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  gap: 2em;
 
-  .category-title {
-    display: flex;
-    flex-direction: column;
-    height: 2lh;
+  > .category {
+    .category-title {
+      display: flex;
+      flex-direction: column;
+      height: 2lh;
+    }
   }
 }

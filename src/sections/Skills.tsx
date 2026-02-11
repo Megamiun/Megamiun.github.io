@@ -9,7 +9,7 @@ const Skill = ({skill, preferText}: SkillProps) =>
     <div className={`exp-level ${preferText ? 'textual' : 'visual'}`}>
         <p className="lhs item-title">{skill.name}</p>
         <span className="rhs">
-            <p className="textual">{skill.textualLevel}</p>
+            <p className="textual"><span className="ats-only">(</span>{skill.textualLevel}<span className="ats-only">)</span></p>
             <span className="visual">
                 {
                         Array.apply(0, Array(5)).map((_, i) => {

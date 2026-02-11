@@ -2,6 +2,8 @@
 
 @media print {
   body {
+    font-variant-ligatures: none;
+
     background-color: constants.$right-color;
     font-size: constants.$print-font-size;
   }
@@ -11,12 +13,12 @@
   }
 
   #info-panel > .content {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
 
     > * {
-      margin: 5px 0px;
-      width: 50%;
+      margin: 5px 0;
     }
   }
 
@@ -52,16 +54,31 @@
     }
   }
 
-  #skills .multi > .category {
-    padding-top: 0;
-    margin-top: 0;
-    width: 25%;
+  #skills .multi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2em;
+
+    > .category {
+      padding-top: 0;
+      margin-top: 0;
+      break-inside: avoid;
+    }
+  }
+
+  #extras .multi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
+
+    > .category {
+      break-inside: avoid;
+    }
   }
 
   #root > .category {
     margin: 0;
     padding: 2vh 2vw;
-
 
     p, li {
       &:not(.item-title):not(.category-title) {
@@ -88,16 +105,13 @@
   }
 
   #life {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
 
     > .category {
       padding: 0;
       margin: 0 2vw;
-      min-width: 40%;
-      display: inline;
     }
   }
 

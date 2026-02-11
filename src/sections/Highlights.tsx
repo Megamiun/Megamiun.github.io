@@ -22,7 +22,7 @@ const HighlightSection = ({ highlight }: {highlight: Highlight}) =>
     </section>
 
 export default ({ data }: { data: Highlights }) =>
-    <section className="multi-grid">
+    <section className="multi">
         {
             data.map(highlight =>
                 <HighlightSection key={highlight.title} highlight={highlight} />

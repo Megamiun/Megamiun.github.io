@@ -1,4 +1,5 @@
 @use "constants";
+//@use "fonts";
 
 * {
   max-width: 100%;
@@ -59,4 +60,8 @@ a {
   * {
     display: inline;
   }
+}
+
+.ats-only {
+  display: none !important;
 }

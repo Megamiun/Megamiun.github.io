@@ -38,11 +38,11 @@ const ExperienceItem = ({experience}: { experience: Experience }) => (
         <p className="category-title h2">
             {experience.name}
             {experience.via && ` (Via ${experience.via})`}
-            <span className="end"><span hidden> - </span>{experience.location}<span hidden> - </span></span>
+            <span className="end"><span className="ats-only"> - </span>{experience.location}<span className="ats-only"> - </span></span>
         </p>
 
         <p className="category-description">
-            <span hidden>{experience.name} - {experience.location} | </span>
+            <span className="ats-only">{experience.name} - {experience.location} | </span>
             <b>{experience.position[0].name}</b> | {describeDuration(experience)}
         </p>
 

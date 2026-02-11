@@ -67,9 +67,9 @@
     "workedOn": "The creation of the backend of a new platform that would allow thousands of users of various clients to have access to a new digital credit card's service, backed by PCI third parties, usually under the \"Payments\" team. Also I became a leader with a focus on Kotlin inside the Backend chapter",
     "lessonsLearnt": "My second job, on a software consulting company, the first one on a bigger project, working for a very secret, very big financial institution, there I started learning about working in microservices and the art of distributed systems, there too I experienced Scrum and learned better how to talk with clients",
     "bulletPoints": [
-      "Delivered APIs under the \"Payments\" team for a credit card white-label app, serving more than a million users currently",
       "Developed a Gradle Plugin to simplify build configuration for over 10 microservices, reducing build configuration by over 80%",
       "Designed API request-signing mechanisms using pinned certificates in collaboration with frontend engineers",
+      "Delivered APIs under the \"Payments\" team for a credit card white-label app, serving more than a million users currently",
       "Implemented internal Artifactory repositories to enable custom shared libraries"
     ],
     "technologies": [
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "name": "Wellhub (formely Gympass)",
+    "name": "Wellhub (formerly Gympass)",
     "location": "São Paulo, Brazil",
     "about": "Global fitness and wellness platform connecting employees with gyms, studios, and digital fitness partners",
     "position": [
@@ -106,8 +106,8 @@
     "workedOn": "The backend to a global fitness app, I worked on the \"Sign-up\" team, helping plan the evolution of our platform",
     "lessonsLearnt": "Working on this unicorn, I learned a lot about the challenges of working on a global system that never stops and that no only can't stop, but must keep getting more and more scalable for the future. There too I learned how choosing the way your data is organized is essential to having a scalable system and not just a choice between SQL and NoSQL. There too I learned better help my junior co-workers and taking a more active role in communicating between the developer and product teams",
     "bulletPoints": [
-      "Improved the user onboarding experience through backend enhancements in the \"Sign-up\" team",
       "Contributed to a successful internal proposal to adopt Kotlin for backend microservices",
+      "Improved the user onboarding experience through backend enhancements in the \"Sign-up\" team",
       "Supported the migration of a legacy Ruby service to more modular Scala-based microservices"
     ],
     "technologies": [
@@ -144,10 +144,10 @@
     "workedOn": "Multiple spheres of a payments service, from implementation of new payment methods to managing the team and implementing PCI compliance",
     "lessonsLearnt": "Working at Lian Lian, I found myself at the first time at a leadership position, learning how to better manage expectations and time constraints between tech and business teams. Also, I learned a lot of how to implement systems from the ground and expand them on necessity, as infrastructure was another focus of my work. And one more time, I saw the difference that can be made in sharing your knowledge with your colleagues and always communicating, seeing all the parts learning and using this new knowledge to build a better system with less friction",
     "bulletPoints": [
+      "Managed and mentored a team of 3-4 developers, promoting best practices and Kotlin proficiency",
       "Led development of a cross-border payment system for international merchants",
-      "Delivered the company's first two PCI certification processes from start to finish",
       "Converted the company infrastructure to IaC on AWS for easier replicability",
-      "Managed and mentored a team of 3~4 developers, promoting best practices and Kotlin proficiency"
+      "Delivered the company's first two PCI certification processes from start to finish"
     ],
     "technologies": [
       "Kotlin",
@@ -183,12 +183,12 @@
     "workedOn": "A data analysis system for the lithography giant, which allows users to visualize the results of their work through in-detail charts and statistics. Other than that, I worked directly on improvements on test frameworks and Backend speed",
     "lessonsLearnt": "Working in ASML, I found myself observing processes and optimizing developer experience, which created measurable quality of life changes to the developers day to day work. Also, another lesson was how to function well in a multicultural environment",
     "bulletPoints": [
+      "Improved multiple test steps from minutes to seconds by profiling and applying algorithmic changes, surpassing 50% speedup on some",
+      "Designed tooling for developers to streamline repetitive manual actions",
+      "Reduced flakiness of feature tests by identifying and restructuring unstable test steps",
       "Delivered multiple data reporting workflows to ASML clients",
       "Collaborated across a multicultural environment to align platform goals",
-      "Contributed to platform-wide initiatives outside the primary responsibilities of the team",
-      "Improved multiple test steps from minutes to seconds by profiling and applying algorithmic changes, surpassing 50% speedup on some",
-      "Reduced flakiness of feature tests by identifying and restructuring unstable test steps",
-      "Designed tooling for developers to streamline repetitive manual actions"
+      "Contributed to platform-wide initiatives outside the primary responsibilities of the team"
     ],
     "technologies": [
       "Java (8, 11, 17, 21)",
@@ -219,9 +219,9 @@
       }
     ],
     "bulletPoints": [
-      "Developed a 16 hours Kotlin course and gave classes for 3 different groups",
-      "Developed a dynamic CV generator system, based on developer data. Inspired by this CV",
-      "Presented an open Kotlin Multiplatform talk, with working apps for Android, iOS and Web"
+      "Developed a 16-hour Kotlin course and gave classes for 3 different groups",
+      "Presented an open Kotlin Multiplatform talk, with working apps for Android, iOS and Web",
+      "Developed a dynamic CV generator system, based on developer data. Inspired by this CV"
     ],
     "technologies": [
       "Kotlin",
