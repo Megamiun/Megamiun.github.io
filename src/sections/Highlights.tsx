@@ -3,7 +3,7 @@ import {Highlights} from "../sources/DataTypes";
 import {Link} from "../components/Link";
 import {includeSVG} from "../helpers/icons";
 
-type Highlight = { title: string, url?: string, description: string, icon: string };
+type Highlight = { title: string, url?: string, location?: string, description: string, icon: string };
 
 const HighlightSection = ({ highlight }: {highlight: Highlight}) =>
     <section className="category">
