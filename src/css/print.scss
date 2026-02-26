@@ -12,16 +12,6 @@
     break-inside: avoid;
   }
 
-  #info-panel > .content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2em;
-
-    > * {
-      margin: 5px 0;
-    }
-  }
-
   #personal-panel, #professional-panel {
     padding: 2% !important;
   }
@@ -100,7 +90,7 @@
     }
   }
 
-  #small-info-panel {
+  #end-page-info-container {
     display: none;
   }
 

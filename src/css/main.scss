@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 
   max-height: 35vh;
-  max-width: 60%;
+  max-width: min(80%, 300px);
   aspect-ratio: 1/1;
 
   > * {

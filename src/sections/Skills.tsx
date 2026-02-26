@@ -12,10 +12,10 @@ const Skill = ({skill, preferText}: SkillProps) =>
             <p className="textual"><span className="ats-only">(</span>{skill.textualLevel}<span className="ats-only">)</span></p>
             <span className="visual">
                 {
-                        Array.apply(0, Array(5)).map((_, i) => {
-                            if (i < skill.level) return <span key={i} className="dot active"></span>
-                            else return <span key={i} className="dot"></span>
-                        })
+                    Array.apply(0, Array(5)).map((_, i) => {
+                        if (i < skill.level) return <span key={i} className="dot active"></span>
+                        else return <span key={i} className="dot"></span>
+                    })
                 }
             </span>
         </span>

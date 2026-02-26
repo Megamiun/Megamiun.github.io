@@ -13,13 +13,20 @@
   @media (min-width: constants.$small-screen-breakpoint) {
     #personal-panel {
       flex: 1 0 0;
+
+      max-width: 700px;
     }
 
     #professional-panel {
-      flex: 3 0 0;
+      flex: 2 0 0;
+
+      >.content {
+        margin-right: auto;
+        max-width: 1000px;
+      }
     }
 
-    #small-info-panel {
+    #end-page-info-container {
       display: none;
     }
   }

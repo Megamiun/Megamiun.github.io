@@ -28,18 +28,17 @@
       }
     ],
     "workedOn": "A service and website focused on allowing the user to follow the status of their financial wallets daily, automatically updated by consuming from a lot of varied resources and sources",
-    "lessonsLearnt": "My first job, on a financial consulting company, the place where I started to learn programming more profoundly. There I started to learn how to program and organize a system, that every choice has its costs and how to work in a team",
     "bulletPoints": [
-      "Maintained backend and frontend services for financial assets management",
       "Participated in a refactoring to decouple calculations for dozens of financial workflows",
-      "Gained first experience building and maintaining real-world applications"
+      "Maintained backend and frontend services for financial assets management",
+      "Worked with multiple third parties to acquire market data to populate services"
     ],
     "technologies": [
       "Java (6 and 8)",
+      "Spring Boot",
       "JSF",
       "Primefaces",
       "CDI",
-      "Spring Boot",
       "Thymeleaf",
       "SVN",
       "Git",
@@ -65,7 +64,6 @@
       }
     ],
     "workedOn": "The creation of the backend of a new platform that would allow thousands of users of various clients to have access to a new digital credit card's service, backed by PCI third parties, usually under the \"Payments\" team. Also I became a leader with a focus on Kotlin inside the Backend chapter",
-    "lessonsLearnt": "My second job, on a software consulting company, the first one on a bigger project, working for a very secret, very big financial institution, there I started learning about working in microservices and the art of distributed systems, there too I experienced Scrum and learned better how to talk with clients",
     "bulletPoints": [
       "Developed a Gradle Plugin to simplify build configuration for over 10 microservices, reducing build configuration by over 80%",
       "Designed API request-signing mechanisms using pinned certificates in collaboration with frontend engineers",
@@ -104,7 +102,6 @@
       }
     ],
     "workedOn": "The backend to a global fitness app, I worked on the \"Sign-up\" team, helping plan the evolution of our platform",
-    "lessonsLearnt": "Working on this unicorn, I learned a lot about the challenges of working on a global system that never stops and that no only can't stop, but must keep getting more and more scalable for the future. There too I learned how choosing the way your data is organized is essential to having a scalable system and not just a choice between SQL and NoSQL. There too I learned better help my junior co-workers and taking a more active role in communicating between the developer and product teams",
     "bulletPoints": [
       "Contributed to a successful internal proposal to adopt Kotlin for backend microservices",
       "Improved the user onboarding experience through backend enhancements in the \"Sign-up\" team",
@@ -112,8 +109,8 @@
     ],
     "technologies": [
       "Ruby",
-      "Ruby on Rails",
       "Scala",
+      "Ruby on Rails",
       "Akka",
       "DynamoDB",
       "MySQL",
@@ -142,17 +139,19 @@
       }
     ],
     "workedOn": "Multiple spheres of a payments service, from implementation of new payment methods to managing the team and implementing PCI compliance",
-    "lessonsLearnt": "Working at Lian Lian, I found myself at the first time at a leadership position, learning how to better manage expectations and time constraints between tech and business teams. Also, I learned a lot of how to implement systems from the ground and expand them on necessity, as infrastructure was another focus of my work. And one more time, I saw the difference that can be made in sharing your knowledge with your colleagues and always communicating, seeing all the parts learning and using this new knowledge to build a better system with less friction",
     "bulletPoints": [
       "Managed and mentored a team of 3-4 developers, promoting best practices and Kotlin proficiency",
       "Led development of a cross-border payment system for international merchants",
-      "Converted the company infrastructure to IaC on AWS for easier replicability",
+      "Worked with Brazilian Payment Providers to integrate our payment processor to their workflows",
+      "Created a React-based Back-office portal from scratch to deliver payment metrics to business analysts",
+      "Converted the company infrastructure to Terraform on AWS for easier replicability",
       "Delivered the company's first two PCI certification processes from start to finish"
     ],
     "technologies": [
       "Kotlin",
+      "Typescript",
       "Spring Boot",
-      "Spring Reactor",
+      "React",
       "PostgreSQL",
       "AWS",
       "SQS/SNS",
@@ -169,7 +168,7 @@
     "about": "Leading global supplier of lithography systems for the semiconductor industry, delivering data-driven engineering tools",
     "position": [
       {
-        "name": "Senior Backend Developer",
+        "name": "Senior Software Engineer",
         "started": {
           "month": 2,
           "year": 2023
@@ -181,19 +180,17 @@
       }
     ],
     "workedOn": "A data analysis system for the lithography giant, which allows users to visualize the results of their work through in-detail charts and statistics. Other than that, I worked directly on improvements on test frameworks and Backend speed",
-    "lessonsLearnt": "Working in ASML, I found myself observing processes and optimizing developer experience, which created measurable quality of life changes to the developers day to day work. Also, another lesson was how to function well in a multicultural environment",
     "bulletPoints": [
       "Improved multiple test steps from minutes to seconds by profiling and applying algorithmic changes, surpassing 50% speedup on some",
-      "Designed tooling for developers to streamline repetitive manual actions",
       "Reduced flakiness of feature tests by identifying and restructuring unstable test steps",
-      "Delivered multiple data reporting workflows to ASML clients",
-      "Collaborated across a multicultural environment to align platform goals",
-      "Contributed to platform-wide initiatives outside the primary responsibilities of the team"
+      "Designed tooling for developers to streamline repetitive manual actions",
+      "Built React-based data visualization dashboards for ASML clients",
+      "Collaborated across a multicultural environment to align platform goals"
     ],
     "technologies": [
-      "Java (8, 11, 17, 21)",
-      "Spring Boot",
+      "Java (11, 17, 21)",
       "Typescript",
+      "Spring Boot",
       "React",
       "NPM",
       "Maven",
@@ -211,7 +208,7 @@
     "about": "Technology consultancy company based on the Netherlands",
     "position": [
       {
-        "name": "Senior Backend Developer",
+        "name": "Senior Software Engineer",
         "started": {
           "month": 2,
           "year": 2023
@@ -225,11 +222,12 @@
     ],
     "technologies": [
       "Kotlin",
+      "Typescript",
       "Kotlin Multiplatform",
       "Compose Multiplatform",
       "Spring Boot",
-      "Node.js",
       "Vue",
+      "Node.js",
       "PostgreSQL",
       "Git"
     ]

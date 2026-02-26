@@ -88,6 +88,11 @@
         "textualLevel": "Advanced"
       },
       {
+        "name": "React",
+        "level": 3,
+        "textualLevel": "Intermediate"
+      },
+      {
         "name": "AWS",
         "level": 3,
         "textualLevel": "Intermediate"

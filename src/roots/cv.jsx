@@ -29,21 +29,25 @@ import "../css/colors.scss"
 createRoot(document.getElementById('root')).render(
     <>
         <section id="personal-panel">
-            <Category id="about-panel">
-                <p id="name" className="category-title">Gabryel Monteiro</p>
-                {env.description.map(line => <p key={line}>{line}</p>)}
-            </Category>
-            <Category id="info-panel" title="Personal"><Info data={personal}/></Category>
+            <section className="content">
+                <Category id="about-panel">
+                    <p id="name" className="category-title">Gabryel Monteiro</p>
+                    {env.description.map(line => <p key={line}>{line}</p>)}
+                </Category>
+                <Category id="info-panel" title="Personal"><Info data={personal}/></Category>
+            </section>
         </section>
 
         <section id="professional-panel">
-            <section id="life" className="multi">
-                <Category id="academics" title="Academics"><Academics data={academics}/></Category>
-                <Category id="certifications" title="Certifications"><Certifications data={certifications}/></Category>
+            <section className="content">
+                <section id="life" className="multi">
+                    <Category id="academics" title="Education"><Academics data={academics}/></Category>
+                    <Category id="certifications" title="Certifications"><Certifications data={certifications}/></Category>
+                </section>
+                <Category id="skills" title="Skills"><Skills data={skills} preferText limit={8} /></Category>
+                <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
+                <Category id="extras" title="Highlights"><Highlights data={highlights}/></Category>
             </section>
-            <Category id="skills" title="Skills"><Skills data={skills} preferText limit={8} /></Category>
-            <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
-            <Category id="extras" title="Highlights"><Highlights data={highlights}/></Category>
         </section>
     </>
 )

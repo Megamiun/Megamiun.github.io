@@ -32,32 +32,36 @@ import "../css/colors.scss"
 createRoot(document.getElementById('root')).render(
     <>
         <section id="personal-panel">
-            <div id="picture-container">
-                <img id="avatar" className="circle" src="/images/avatar.jpg"/>
-                <Icons.siteQrCode id="qr-code" />
-            </div>
+            <section className="content">
+                <div id="picture-container">
+                    <img id="avatar" className="circle" src="/images/avatar.jpg"/>
+                    <Icons.siteQrCode id="qr-code" />
+                </div>
 
-            <Category id="about-panel">
-                <p id="name" className="category-title">Gabryel Monteiro</p>
-                {env.description.map(line => <p key={line}>{line}</p>)}
-            </Category>
-            <Category id="info-panel" title="Personal"><Info data={personal}/></Category>
+                <Category id="about-panel">
+                    <p id="name" className="category-title">Gabryel Monteiro</p>
+                    {env.description.map(line => <p key={line}>{line}</p>)}
+                </Category>
+                <Category id="info-panel" title="Personal"><Info data={personal}/></Category>
+            </section>
         </section>
 
         <section id="professional-panel">
-            <section id="life" className="multi">
-                <section id="education">
-                    <Category id="academics" title="Academics"><Academics data={academics}/></Category>
-                    <Category id="certifications" title="Certifications"><Certifications data={certifications}/></Category>
+            <section className="content">
+                <section id="life" className="multi">
+                    <section id="education">
+                        <Category id="academics" title="Education"><Academics data={academics}/></Category>
+                        <Category id="certifications" title="Certifications"><Certifications data={certifications}/></Category>
+                    </section>
+                    <Category id="experiences" title="Experiences"><Experiences data={experiences}/></Category>
                 </section>
-                <Category id="experiences" title="Experiences"><Experiences data={experiences}/></Category>
+                <Category id="skills" title="Skills"><Skills data={skills} limit={8} /></Category>
+                <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
+                <Category id="extras" title="Highlights"><Highlights data={highlights}/></Category>
             </section>
-            <Category id="skills" title="Skills"><Skills data={skills} limit={8} /></Category>
-            <Category id="jobs" title="Experience"><Jobs data={experiences}/></Category>
-            <Category id="extras" title="Highlights"><Highlights data={highlights}/></Category>
         </section>
 
-        <section id="small-info-panel">
+        <section id="end-page-info-container">
             <Category title="Personal"><Info data={personal}/></Category>
         </section>
     </>

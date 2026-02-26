@@ -8,7 +8,6 @@ interface Experience {
     about: string
     location: string
     workedOn?: string
-    lessonsLearnt?: string
     bulletPoints: string[]
     technologies: string[]
     position: Position[]

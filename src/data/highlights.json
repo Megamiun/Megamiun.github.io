@@ -31,7 +31,7 @@
   },
   {
     "title": "This CV Repository",
-    "description": "Repository with the code used to generate this CV using React",
+    "description": "Repository with the code used to generate this CV using React and TypeScript. Dynamically renders resumes based on structured developer data",
     "icon": "code",
     "url": "https://github.com/Megamiun/Megamiun.github.io"
   }

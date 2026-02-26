@@ -1,11 +1,23 @@
 @use "constants";
 
-#personal-panel, #small-info-panel {
+#personal-panel, #end-page-info-container {
   padding-left: constant(safe-area-inset-left);
 }
 
 #professional-panel {
   padding-right: constant(safe-area-inset-right);
+}
+
+#info-panel, #end-page-info-container > .category {
+  > .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17em, 1fr));
+    grid-column-gap: 1em;
+
+    > * {
+      margin: 5px 0;
+    }
+  }
 }
 
 #jobs > .content > .category {
@@ -14,10 +26,6 @@
 
 #experiences, #education {
   min-width: 45%;
-}
-
-#skills .multi > .category {
-  max-width: 18em;
 }
 
 #jobs {
@@ -51,8 +59,8 @@
 
 #extras .multi {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  gap: 1em;
 
   > .category {
     .category-title {

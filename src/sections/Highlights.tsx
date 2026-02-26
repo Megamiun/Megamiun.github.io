@@ -14,8 +14,8 @@ const HighlightSection = ({ highlight }: {highlight: Highlight}) =>
             </span>
             {
                 highlight.location != undefined ?
-                    <span>@ {highlight.location}</span>: 
-                    null
+                    <span>@ {highlight.location}</span>:
+                    <span>@ Personal</span>
             }
         </p>
         <p>{highlight.description}.</p>
